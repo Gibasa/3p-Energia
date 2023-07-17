@@ -1,0 +1,25 @@
+.header-bg{
+    background-color: #047060;
+}
+
+.header-container{
+    gap: 10px;
+}
+
+.header-links{
+    gap: 10px;
+}
+
+.header-link{
+    color: white;
+}
+
+.header-btn{
+    background-color: #bd791a;
+    border: none;
+}
+
+.header-toggle{
+    color: #5de280;
+    background-color: white;
+}
