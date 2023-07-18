@@ -1,0 +1,48 @@
+.quemSomos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:100px 0;
+    gap: 80px;
+    padding: 100px 0;
+    background-color: #f0f0f0;
+    width: 100%;
+}
+
+.quemSomos img {
+    height: 230px;
+    padding-bottom: 20px;
+}
+
+.text{
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text h2{
+    font-size: 3.5rem;
+    color: #047060;
+}
+
+.text p {
+    font-weight: 500;
+    color: #047060;
+}
+
+@media (max-width: 991px) {
+    .quemSomos{
+        flex-direction: column;
+        margin: 0
+    }
+    .quemSomos img {
+        height: 300px;
+    }
+    
+    .text{
+        width: 80%;
+        text-align: center;
+    }
+
+
+}

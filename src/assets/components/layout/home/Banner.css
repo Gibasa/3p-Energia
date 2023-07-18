@@ -1,0 +1,33 @@
+.banner {
+  height: 70vh;
+  background-image:linear-gradient(rgba(4, 112, 96, 0.5), rgba(4, 112, 96, 0.5)), url("../../../img/pexels-red-zeppelin-4148472.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: left;
+  padding-left: 150px;
+}
+
+.banner h2{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.home-btn {
+  background-color: #047060;
+  border: none;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  width: 150px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.home-btn:hover {
+  background-color: #5de280;
+  border: none;
+}

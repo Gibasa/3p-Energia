@@ -14,7 +14,15 @@
     color: white;
 }
 
+.header-link:hover{
+    color: #5de280;
+}
+
 .header-btn{
+    background-color: #5de280;
+    border: none;
+}
+.header-btn:hover{
     background-color: #bd791a;
     border: none;
 }

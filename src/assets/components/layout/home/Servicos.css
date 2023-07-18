@@ -1,0 +1,71 @@
+.servicos {
+    background-color: none;
+    margin: 50px 300px;
+  }
+  
+  .servicos h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 3.5rem;
+    color: #047060;
+  }
+
+  .servicos p {
+    text-align: center;
+    margin-bottom: 70px;
+    color: #047060;
+  }
+  
+  .servicos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .servico {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 50px 50px;
+  }
+  
+  .icon {
+    font-size: 3rem;
+    color: #047060;
+  }
+  
+  .servico-text {
+    margin-top: 10px;
+    width: 80%;
+    font-weight: 500;
+    color: #047060;
+  }
+  
+  .top {
+    height: 50%;
+    margin: 0 50px;
+  }
+  
+  .bot {
+    height: 40%;
+    margin: 30px 50px;
+  }
+
+  @media (max-width: 991px) {
+    .servicos{
+        margin: 50px 70px;
+    }
+
+    .servico{
+        width: 30%;
+        margin-top: 30px;
+    }
+
+    .servico-text{
+        width: 100%;
+    }
+  }
+  
