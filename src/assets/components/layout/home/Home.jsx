@@ -3,6 +3,8 @@ import Banner from "./Banner"
 import Servicos from "./Servicos"
 import QuemSomos from "./QuemSomos"
 import Linha from "./Linha"
+import Mapa from "./Mapa"
+import Clientes from "./Clientes"
 
 function Home(){
     return(
@@ -11,6 +13,8 @@ function Home(){
             <Servicos/>
             <QuemSomos/>
             <Linha />
+            <Mapa/>
+            <Clientes/>
         </div>
     )
 }

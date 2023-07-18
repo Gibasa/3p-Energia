@@ -1,0 +1,14 @@
+.clientes{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.clientes h2{
+    font-size: 3.5rem;
+    color: #047060;
+}
+.clientes img{
+    max-width: 150px; 
+    margin: 30px;
+}
