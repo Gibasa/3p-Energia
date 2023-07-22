@@ -5,6 +5,9 @@ import QuemSomos from "./QuemSomos"
 import Linha from "./Linha"
 import Mapa from "./Mapa"
 import Clientes from "./Clientes"
+import Video from "./Video"
+import CarouselComponent from "./Carousel"
+import Card3P from "./Card3P"
 
 function Home(){
     return(
@@ -15,6 +18,9 @@ function Home(){
             <Linha />
             <Mapa/>
             <Clientes/>
+            <Video/>
+            <CarouselComponent/>
+            <Card3P/>
         </div>
     )
 }

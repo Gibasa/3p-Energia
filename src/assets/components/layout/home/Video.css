@@ -1,0 +1,47 @@
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 200px;
+    background-color: #f0f0f0;
+}
+
+.video-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.video-text h2{
+    color: #047060;
+    font-size: 3.5rem;
+}
+
+.video-text p{
+    color: #047060;
+    font-weight: 500;
+}
+
+.video-btn{
+    background-color: #047060;
+    border: none;
+    padding: 10px;
+    width: 200px;
+}
+.video-btn:hover{
+    background-color: #5de280;
+}
+
+@media (max-width: 991px) {
+    .video{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .video-text h2, .video-text p{
+        align-self: center;
+    }
+}

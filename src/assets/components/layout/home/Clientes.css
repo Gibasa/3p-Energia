@@ -1,7 +1,7 @@
 .clientes{
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 180px;
 }
 
 .clientes h2{
@@ -11,4 +11,15 @@
 .clientes img{
     max-width: 150px; 
     margin: 30px;
+}
+
+@media (max-width: 991px) {
+    .clientes{
+        padding: 0;
+    }
+
+    .clientes h2{
+        padding: 80px 80px 40px 80px;
+        align-self: center;
+    }
 }
