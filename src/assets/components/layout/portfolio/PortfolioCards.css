@@ -1,0 +1,35 @@
+.portfolio-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.portfolio-cards img{
+    height: 300px;
+    position: relative;
+    transition: transform 0.2s ease;
+}
+
+.portfolio-cards-item {
+    flex: 0 0 calc(33.33%-20px);
+    margin: 100px 10px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-cards-text{
+    position: absolute;
+    bottom: -50%;
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+
+.portfolio-cards-item:hover img {
+    transform: translateY(-10%);
+  }

@@ -1,7 +1,14 @@
+import "./Portfolio.css"
+import PortfolioCards from "./PortfolioCards"
+import PortfolioHeader from "./PortfolioHeader"
+import PortfolioForm from "./PortfolioForm"
+
 function Portfolio(){
     return(
-        <div>
-            <h2>Portfólio</h2>
+        <div className="portfolio">
+            <PortfolioHeader/>
+            <PortfolioCards/>
+            <PortfolioForm/>
         </div>
     )
 }
