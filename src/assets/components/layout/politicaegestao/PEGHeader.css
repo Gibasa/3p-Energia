@@ -1,0 +1,17 @@
+.PEG-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 100px;
+    height: 150px;
+    background-color: #5de280;
+    color: white;
+}
+
+.PEG-header h2{
+    font-size: 3.5rem;
+}
+
+.PEG-header p{
+    font-size: 1.2rem;
+}

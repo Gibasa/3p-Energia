@@ -1,0 +1,132 @@
+.PEGContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PEGContent-1,
+.PEGContent-2,
+.PEGContent-3,
+.PEGContent-4,
+.PEGContent-5,
+.PEGContent-6,
+.PEGContent-7,
+.PEGContent-8,
+.PEGContent-9,
+.PEGContent-10,
+.PEGContent-11,
+.PEGContent-12 {
+    color: #047060;
+}
+
+.PEGContent-1 h2,
+.PEGContent-2 h2,
+.PEGContent-3 h2,
+.PEGContent-4 h2,
+.PEGContent-5 h2,
+.PEGContent-6 h2,
+.PEGContent-7 h2,
+.PEGContent-8 h2,
+.PEGContent-9 h2,
+.PEGContent-10 h2,
+.PEGContent-11 h2,
+.PEGContent-12 h2 {
+  font-size: 3.5rem;
+}
+
+.PEGContent-1 p,
+.PEGContent-2 p,
+.PEGContent-3 p,
+.PEGContent-4 p,
+.PEGContent-5 p,
+.PEGContent-6 p,
+.PEGContent-7 p,
+.PEGContent-8 p,
+.PEGContent-9 p,
+.PEGContent-10 p,
+.PEGContent-11 p,
+.PEGContent-12 p {
+  font-size: 1.2rem;
+}
+
+.PEGContent-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 300px;
+}
+.PEGContent-1 p, .PEGContent-1 h2{
+    width: 50%;
+}
+
+.PEGContent-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 300px;
+    gap: 10px;
+}
+
+.PEGContent-2-p{
+    border: 1px solid #047060;
+    border-radius: 10px;
+    width: calc(100%/5);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease;
+}
+.PEGContent-2-p:hover{
+    background-color: #047060;
+    color: white;
+}
+
+.PEGContent-2 p{
+    text-align: center;  
+    padding: 10px;  
+}
+
+.PEGContent-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin: 300px 300px 100px 300px;
+}
+
+.PEGContent-4{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 100px 300px 300px 300px;
+}
+
+.PEGContent-4 li{
+    color: #047060;
+}
+
+
+.PEGContent-4 .accordion-button{
+    color: #047060;
+    padding-left: 30px;
+    border: none;
+}
+
+.accordion-item {
+    border: none;
+  }
+  .accordion-button:not(.collapsed){
+    background-color: white;
+    outline: none;
+  }
+  .accordion-button:focus{
+    box-shadow: none;
+  }
+
+
+
+
+
+
+

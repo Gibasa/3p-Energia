@@ -1,7 +1,12 @@
+import "./PoliticaEGestao.css"
+import PEGHeader from "./PEGHeader"
+import PEGContent from "./PEGContent"
+
 function PoliticaEGestao(){
     return(
         <div>
-            <h2>Politica e Gestao</h2>
+            <PEGHeader/>
+            <PEGContent/>
         </div>
     )
 }

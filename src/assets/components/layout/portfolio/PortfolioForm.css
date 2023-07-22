@@ -36,3 +36,10 @@
 .portfolio-btn:hover{
     background-color: #5de280;
 }
+
+
+@media (max-width: 991px) {
+    .portfolio-form{
+        margin: 80px 10px 10px 10px;
+    }
+}
