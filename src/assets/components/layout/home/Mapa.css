@@ -51,6 +51,16 @@
     .map-text{
         flex-direction: column-reverse;
         text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .map-text img{
+        width: 100%;
+        height: 100%;
+        padding: 50px;
+        margin: 50px;
     }
 
     .map-text h2{

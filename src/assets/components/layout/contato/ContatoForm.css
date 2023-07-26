@@ -1,0 +1,13 @@
+.contato-form{
+    width: 50%;
+}
+
+.contato-form-item{
+    padding-top: 20px;
+}
+
+@media (max-width: 991px) {
+    .contato-form{
+        width: 80%;
+    }
+}

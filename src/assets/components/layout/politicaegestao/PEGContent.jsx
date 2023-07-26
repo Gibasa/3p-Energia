@@ -5,7 +5,7 @@ function PEGContent() {
   return (
     <div className="PEGcontent">
       <div className="PEGContent-1">
-        <h2>Sistema de Gestão Integrada  (SGI)</h2>
+        <h2>Sistema de Gestão Integrada (SGI)</h2>
         <p>
           Como objetivo geral do SGI temos como proposta melhorar as condições
           de trabalho, facilitando e otimizando os processos de produção de
@@ -85,10 +85,12 @@ function PEGContent() {
         <p>A cada 1kWp vendido doamos 10kg de alimentos.</p>
       </div>
       <div className="PEGContent-7">
-        <div className="PEGContent-7-ambiental">
+        <div className="PEGContent-7-accordion">
           <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="2">
-              <Accordion.Header>Ambiental</Accordion.Header>
+              <Accordion.Header className="accordion-button-peg accordion-button-ambiental">
+                Ambiental
+              </Accordion.Header>
               <Accordion.Body>
                 <p>
                   A 3P Energia prioriza as práticas de eficiência ambiental em
@@ -105,10 +107,12 @@ function PEGContent() {
             </Accordion.Item>
           </Accordion>
         </div>
-        <div className="PEGContent-7-social">
+        <div className="PEGContent-7-accordion">
           <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="2">
-              <Accordion.Header>Social</Accordion.Header>
+              <Accordion.Header className="accordion-button-peg accordion-button-social">
+                Social
+              </Accordion.Header>
               <Accordion.Body>
                 <p>
                   A gestão dos colaboradores e fornecedores da 3P Energia é
@@ -171,11 +175,11 @@ function PEGContent() {
               <Accordion.Body>
                 <p>
                   1. Reunião mensal, a cada segunda sexta-feira do mês, no
-                  período da tarde <br/> 2. Apresentados indicadores de performance
-                  de todos os setores da empresa <br/> 3. Participam da reunião
-                  sócios, cargos gerenciais, colaboradores e estagiários <br/> 4. É
-                  aberto um espaço para discussão e brainstorm entre os agentes
-                  para melhoria geral do processo
+                  período da tarde <br /> 2. Apresentados indicadores de
+                  performance de todos os setores da empresa <br /> 3.
+                  Participam da reunião sócios, cargos gerenciais, colaboradores
+                  e estagiários <br /> 4. É aberto um espaço para discussão e
+                  brainstorm entre os agentes para melhoria geral do processo
                 </p>
               </Accordion.Body>
             </Accordion.Item>
@@ -185,40 +189,40 @@ function PEGContent() {
       <div className="PEGContent-11">
         <img src="/src/assets/img/book2-1.png" alt="book 127 erros img" />
         <Form className="PEGContent-11-form">
-        <h2>Solicite nosso portfólio completo!</h2>
-        <Form.Group
-          className="mb-3 PEGContent-11-form-group"
-          controlId="formBasicEmail"
-        >
-          <div className="PEGContent-11-form-item">
-            <Form.Label>Nome</Form.Label>
-            <Form.Control type="email" placeholder="Digite seu nome" />
-          </div>
-          <div className="PEGContent-11-form-item">
-            <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Digite seu email" />
-          </div>
-          <div className="PEGContent-11-form-item">
-            <Form.Label>Telefone</Form.Label>
-            <Form.Control type="email" placeholder="Digite seu telefone" />
-          </div>
-          <div className="PEGContent-11-form-item">
-            <Form.Label>Empresa</Form.Label>
-            <Form.Control type="email" placeholder="Digite sua empresa" />
-          </div>
-          <div className="PEGContent-11-form-item">
-            <Form.Label>Mensagem</Form.Label>
-            <Form.Control
-              as="textarea"
-              rows={4}
-              placeholder="Digite sua mensagem"
-            />
-          </div>
-        </Form.Group>
-        <Button className="PEGContent-11-btn" variant="primary" type="submit">
-          Submit
-        </Button>
-      </Form>
+          <h2>Solicite nosso portfólio completo!</h2>
+          <Form.Group
+            className="mb-3 PEGContent-11-form-group"
+            controlId="formBasicEmail"
+          >
+            <div className="PEGContent-11-form-item">
+              <Form.Label>Nome</Form.Label>
+              <Form.Control type="email" placeholder="Digite seu nome" />
+            </div>
+            <div className="PEGContent-11-form-item">
+              <Form.Label>Email address</Form.Label>
+              <Form.Control type="email" placeholder="Digite seu email" />
+            </div>
+            <div className="PEGContent-11-form-item">
+              <Form.Label>Telefone</Form.Label>
+              <Form.Control type="email" placeholder="Digite seu telefone" />
+            </div>
+            <div className="PEGContent-11-form-item">
+              <Form.Label>Empresa</Form.Label>
+              <Form.Control type="email" placeholder="Digite sua empresa" />
+            </div>
+            <div className="PEGContent-11-form-item">
+              <Form.Label>Mensagem</Form.Label>
+              <Form.Control
+                as="textarea"
+                rows={4}
+                placeholder="Digite sua mensagem"
+              />
+            </div>
+          </Form.Group>
+          <Button className="PEGContent-11-btn" variant="primary" type="submit">
+            Submit
+          </Button>
+        </Form>
       </div>
     </div>
   );

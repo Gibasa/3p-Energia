@@ -16,7 +16,8 @@
 .PEGContent-10,
 .PEGContent-11,
 .PEGContent-12 {
-    color: #047060;
+  color: #047060;
+  margin: 300px 300px 100px 300px;
 }
 
 .PEGContent-1 h2,
@@ -49,84 +50,331 @@
   font-size: 1.2rem;
 }
 
-.PEGContent-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 300px;
+.PEGContent-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.PEGContent-1 p, .PEGContent-1 h2{
-    width: 50%;
-}
-
-.PEGContent-2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 300px;
-    gap: 10px;
+.PEGContent-1 p,
+.PEGContent-1 h2 {
+  width: 50%;
 }
 
-.PEGContent-2-p{
-    border: 1px solid #047060;
-    border-radius: 10px;
-    width: calc(100%/5);
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: background-color 0.5s ease;
-}
-.PEGContent-2-p:hover{
-    background-color: #047060;
-    color: white;
+.PEGContent-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
-.PEGContent-2 p{
-    text-align: center;  
-    padding: 10px;  
+.PEGContent-2-p {
+  border: 1px solid #047060;
+  border-radius: 10px;
+  width: calc(100% / 5);
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease;
+}
+.PEGContent-2-p:hover {
+  background-color: #047060;
+  color: white;
 }
 
-.PEGContent-3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 200px;
-    margin: 300px 300px 100px 300px;
+.PEGContent-2 p {
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 0;
 }
 
-.PEGContent-4{
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    margin: 100px 300px 300px 300px;
+.PEGContent-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
 }
 
-.PEGContent-4 li{
-    color: #047060;
+.PEGContent-4 {
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-top: 0;
 }
 
+.PEGContent-4 li {
+  color: #047060;
+}
 
-.PEGContent-4 .accordion-button{
-    color: #047060;
-    padding-left: 30px;
-    border: none;
+.PEGContent-4 .accordion-button {
+  color: #047060;
+  padding-left: 30px;
+  border: none;
 }
 
 .accordion-item {
-    border: none;
+  border: none;
+}
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  outline: none;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.PEGContent-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.PEGContent-5 img {
+  height: 500px;
+}
+
+.PEGContent-5-text {
+  width: 50%;
+  padding: 20px;
+}
+
+.PEGContent-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #047060;
+  border-radius: 10px;
+  padding: 10px;
+}
+.PEGContent-6 p,
+.PEGContent-6 h3 {
+  margin: 0;
+}
+
+.accordion-button-ambiental {
+  background-color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.accordion-button-social {
+  background-color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.PEGContent-7 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  margin-top: 200px;
+}
+
+.PEGContent-7 .accordion-button {
+  color: #047060;
+}
+
+.PEGContent-7 p {
+  grid-column: 1 / span 2;
+  color: #047060;
+}
+
+.PEGContent-8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.PEGContent-8 p {
+  width: 80%;
+}
+
+.PEGContent-8 h2 {
+  width: 80%;
+}
+
+.PEGContent-9 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.PEGContent-10 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  margin-top: 100px;
+}
+
+.PEGContent-10 .accordion-button {
+  color: #047060;
+}
+
+.PEGContent-10 p {
+  color: #047060;
+}
+
+.PEGContent-11 {
+  display: flex;
+  gap: 50px;
+  margin: 200px;
+}
+
+.PEGContent-11-form {
+  background-color: #bd791a;
+  padding: 50px;
+  color: white;
+}
+
+.PEGContent-11-form-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.PEGContent-11-form-item {
+  width: 50%;
+  padding: 10px;
+}
+
+.PEGContent-11-form-item:last-child {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .PEGContent-1,
+  .PEGContent-3,
+  .PEGContent-4,
+  .PEGContent-5,
+  .PEGContent-6,
+  .PEGContent-7,
+  .PEGContent-8,
+  .PEGContent-9,
+  .PEGContent-10,
+  .PEGContent-11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
   }
-  .accordion-button:not(.collapsed){
-    background-color: white;
-    outline: none;
+
+  .PEGContent-1 p,
+  .PEGContent-1 h2 {
+    width: 100%;
+    text-align: center;
   }
-  .accordion-button:focus{
-    box-shadow: none;
+
+  .PEGContent-2 {
+    flex-wrap: wrap;
+    margin: 10px;
   }
 
+  .PEGContent-2-p {
+    width: calc(100% / 3);
+    padding: 10px;
+  }
 
+  .PEGContent-3 {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
 
+  .PEGContent-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+  }
 
+  .PEGContent-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .PEGContent-5 p{
+    padding-top: 50px;
+  }
 
+  .PEGContent-5 img {
+    margin-bottom: 20px;
+  }
 
+  .PEGContent-5-text {
+    width: 80%;
+    padding: 0;
+    text-align: center;
+  }
 
+  .PEGContent-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .PEGContent-7 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .PEGContent-8 p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .PEGContent-8 h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .PEGContent-10 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .PEGContent-11 {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .PEGContent-11 img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .PEGContent-11-form {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .PEGContent-11-form-item {
+    width: 100%;
+    padding: 5px;
+  }
+}

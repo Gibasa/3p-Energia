@@ -1,4 +1,4 @@
-.portfolio-header{
+.contato-header{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,16 +8,10 @@
     color: white;
 }
 
-.portfolio-header h2{
+.contato-header h2{
     font-size: 3.5rem;
 }
 
-.portfolio-header p{
+.contato-header p{
     font-size: 1.2rem;
-}
-
-@media (max-width: 991px) {
-    .portfolio-header{
-        align-items: center;
-    }
 }

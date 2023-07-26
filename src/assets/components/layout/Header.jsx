@@ -8,7 +8,7 @@ function Header() {
   return (
     <Navbar expand="lg" className="header-bg">
       <Container className="header-container">
-        <Navbar.Brand className="header-logo order-lg-first" href="#home">
+        <Navbar.Brand className="header-logo order-lg-first" href="/">
           <img
             src="/src/assets/img/REDESIGN 3P ENERGIA BRANCO.png"
             height="80"

@@ -1,0 +1,22 @@
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 100px 300px 300px 300px;
+}
+
+.contato-text{
+    width: 50%;
+}
+@media (max-width: 991px) {
+
+    .contato{
+        flex-direction: column-reverse;
+        margin: 50px 10px;
+    }
+
+    .contato-text{
+        width: 80%;
+    }
+ }
