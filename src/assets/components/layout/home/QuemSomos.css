@@ -33,10 +33,11 @@
 @media (max-width: 991px) {
     .quemSomos{
         flex-direction: column;
-        margin: 0
+        margin: 0;
+        gap: 40px;
     }
     .quemSomos img {
-        height: 300px;
+        height: 250px;
     }
     
     .text{

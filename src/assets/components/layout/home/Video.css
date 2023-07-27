@@ -3,19 +3,20 @@
     justify-content: center;
     align-items: center;
     padding: 100px;
-    gap: 200px;
+    gap: 100px;
     background-color: #f0f0f0;
 }
 
 .video-text{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
 }
 
 .video-text h2{
     color: #047060;
     font-size: 3.5rem;
+    line-height: 20px;
 }
 
 .video-text p{
@@ -25,12 +26,13 @@
 
 .video-btn{
     background-color: #047060;
-    border: none;
-    padding: 10px;
-    width: 200px;
+    border: 2px solid #5de280;
+    border-radius: 50px;
+    width: 230px;
 }
 .video-btn:hover{
     background-color: #5de280;
+    border: 2px solid #5de280;
 }
 
 @media (max-width: 991px) {

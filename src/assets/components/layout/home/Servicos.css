@@ -1,6 +1,5 @@
 .servicos {
-    background-color: none;
-    margin: 50px 300px;
+    margin: 50px 200px;
   }
   
   .servicos h3 {
@@ -14,58 +13,124 @@
     text-align: center;
     margin-bottom: 70px;
     color: #047060;
+    font-size: 1.2rem;
+    font-weight: 500;
   }
   
   .servicos-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
   
   .servico {
-    width: 15%;
+    width: 194.77px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: top;
     align-items: center;
-    margin: 50px 50px;
+    padding: 50px 10px;
+    margin: 10px 20px;
+    border: 2px solid #5de280;
+    border-radius: 20px;
+  }
+
+  .servico:hover{
+    background-color: #5de280;
+  }
+
+  .servico:hover .icon, .servico:hover .servico-text{
+    color: white;
   }
   
   .icon {
     font-size: 3rem;
     color: #047060;
+    padding-top: 5px;
   }
   
   .servico-text {
     margin-top: 10px;
-    width: 80%;
-    font-weight: 500;
+    width: 100%;
     color: #047060;
+    padding-top: 20px;
   }
   
-  .top {
-    height: 50%;
-    margin: 0 50px;
-  }
+ 
   
-  .bot {
-    height: 40%;
-    margin: 30px 50px;
+  /* Medium devices (between 600px and 900px) */
+  @media (max-width: 599px) {
+  .servicos {
+    margin: 50px 20px;
   }
 
-  @media (max-width: 991px) {
-    .servicos{
-        margin: 50px 70px;
-    }
-
-    .servico{
-        width: 30%;
-        margin-top: 30px;
-    }
-
-    .servico-text{
-        width: 100%;
-    }
+  .servico {
+    width: 60%;
+    height: 30%;
+    margin: 10px;
+    padding: 20px;
   }
+
+  .servicos-container{
+    flex-wrap: wrap;
+  }
+}
+
+/* Medium devices (between 600px and 900px) */
+@media (min-width: 600px) and (max-width: 899px) {
+  .servicos {
+    margin: 50px 50px;
+  }
+
+  .servico {
+    width: 70%;
+    height: 30%;
+    margin: 10px 100px;
+    padding: 20px;
+  }
+
+  .servico-text {
+    width: 80%;
+  }
+
+  .servicos-container {
+    flex-wrap: wrap;
+  }
+}
+
+/* Large devices (between 900px and 1200px) */
+@media (min-width: 900px) and (max-width: 1199px) {
+  .servicos {
+    margin: 50px 100px;
+  }
+
+  .servico {
+    width: 30%;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+  }
+  .servicos-container{
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1200px) {
+  .servicos {
+    margin: 50px 100px;
+  }
+
+  .servico {
+    justify-content: top;
+    align-items: center;
+    width: 30%;
+    height: 260px;
+    margin: 10px;
+    padding: 20px;
+  }
+ 
+}
+
   

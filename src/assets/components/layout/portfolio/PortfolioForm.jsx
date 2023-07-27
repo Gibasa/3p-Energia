@@ -6,6 +6,7 @@ function PortfolioForm() {
 
       <Form className="portfolio-form">
         <h2>Solicite nosso portfólio completo!</h2>
+        <div className="portfolio-form-form">
         <Form.Group
           className="mb-3 portfolio-form-group"
           controlId="formBasicEmail"
@@ -15,7 +16,7 @@ function PortfolioForm() {
             <Form.Control type="email" placeholder="Digite seu nome" />
           </div>
           <div className="portfolio-form-item">
-            <Form.Label>Email address</Form.Label>
+            <Form.Label>Email</Form.Label>
             <Form.Control type="email" placeholder="Digite seu email" />
           </div>
           <div className="portfolio-form-item">
@@ -36,8 +37,9 @@ function PortfolioForm() {
           </div>
         </Form.Group>
         <Button className="portfolio-btn" variant="primary" type="submit">
-          Submit
+          Enviar
         </Button>
+        </div>
       </Form>
   );
 }

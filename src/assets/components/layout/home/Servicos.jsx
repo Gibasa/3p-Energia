@@ -33,8 +33,7 @@ function Servicos() {
         <div className="servico top">
           <FontAwesomeIcon className="icon" icon={faPeopleCarryBox} />
           <div className="servico-text">
-            Gerenciamento de Projetos de Geração Distribuída (Solar
-            Fotovoltaico)
+            Gerenciamento de Projetos de Geração Distribuída
           </div>
         </div>
         <div className="servico bot">

@@ -1,17 +1,73 @@
-.PEG-header{
+.PEG-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+  color: #047060;
+  width: 100%;
+  height: 200px;
+}
+
+.PEG-header h2 {
+  font-size: 3.5rem;
+}
+.PEG-line {
+  width: 300px;
+  height: 4px;
+  background-color: #bd791a;
+  border-radius: 10px;
+}
+
+@media (max-width: 599px) {
+  .PEG-header {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    padding: 50px 100px;
-    height: 150px;
-    background-color: #5de280;
-    color: white;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    color: #047060;
+    width: 100%;
+  }
+  .PEG-header h2 {
+    font-size: 2.5rem;
+  }
+
+  .PEG-line {
+    width: 300px;
+    height: 4px;
+    background-color: #bd791a;
+    border-radius: 10px;
+  }
 }
 
-.PEG-header h2{
-    font-size: 3.5rem;
+@media (min-width: 600px) and (max-width: 899px) {
+    .PEG-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        color: #047060;
+        width: 100%;
+      }
+    
+      .PEG-header h2 {
+        font-size: 3.5rem;
+      }
+      .PEG-line {
+        width: 300px;
+        height: 4px;
+        background-color: #bd791a;
+        border-radius: 10px;
+      }
+      .PEG-header h2 {
+        font-size: 2.5rem;
+      }
 }
 
-.PEG-header p{
-    font-size: 1.2rem;
+@media (min-width: 900px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) {
 }

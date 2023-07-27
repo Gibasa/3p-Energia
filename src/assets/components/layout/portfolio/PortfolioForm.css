@@ -1,13 +1,23 @@
 .portfolio-form{
     display: flex;
     flex-direction: column;
-    margin: 200px 300px;
+    margin: 100px 0px;
     padding: 20px;
     background-color: #bd791a;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     color: white;
-    border-radius: 20px;
+}
+
+.portfolio-form h2{
+    text-align: left;
+    padding-left: 35px;
+}
+.portfolio-form-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .portfolio-form-group{
@@ -27,14 +37,16 @@
 }
 
 .portfolio-btn{
-    justify-self: center;
     background-color: #047060;
-    border: none;
-    font-size: 1.5rem;
+    border: 2px solid #5de280;
+    border-radius: 50px;
+    width: 10%;
 }
 
 .portfolio-btn:hover{
     background-color: #5de280;
+    border: 2px solid #5de280;
+
 }
 
 

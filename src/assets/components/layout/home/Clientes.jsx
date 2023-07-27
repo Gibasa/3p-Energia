@@ -9,7 +9,7 @@ function Clientes() {
     return (
     <div className="clientes">
         <h2>Nossos Clientes:</h2>
-        <div>
+        <div className="clientes-images">
          {imagens}
          </div>
     </div>

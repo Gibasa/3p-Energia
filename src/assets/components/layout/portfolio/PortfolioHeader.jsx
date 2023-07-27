@@ -1,12 +1,12 @@
-import "./PortfolioHeader.css"
+import "./PortfolioHeader.css";
 
-function PortfolioHeader(){
-    return(
-        <div className="portfolio-header">
-            <p>3P Energia</p>
-            <h2>Nosso Portfólio</h2>
-        </div>
-    )
+function PortfolioHeader() {
+  return (
+    <div className="portfolio-header">
+      <h2> PORTFÓLIO</h2>
+      <div className="portfolio-line"></div>
+    </div>
+  );
 }
 
-export default PortfolioHeader
+export default PortfolioHeader;

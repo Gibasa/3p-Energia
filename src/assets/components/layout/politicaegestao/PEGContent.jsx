@@ -34,51 +34,56 @@ function PEGContent() {
         </div>
       </div>
       <div className="PEGContent-3">
-        <h2>Política de QSSMA</h2>
-        <p>(Qualidade, Saúde, Segurança, Meio Ambiente)</p>
+        <div className="PEGContent-3-text">
+          <h2>Política de QSSMA</h2>
+          <p>(Qualidade, Saúde, Segurança, Meio Ambiente)</p>
+          <div className="PEGContent-3-accordion">
+            <Accordion defaultActiveKey="0">
+              <Accordion.Item eventKey="1">
+                <Accordion.Header>
+                  A 3P Energia tem o cliente como foco e a melhoria contínua do
+                  desempenho como filosofia de trabalho, objetivando:
+                </Accordion.Header>
+                <Accordion.Body>
+                  <ol>
+                    <li>
+                      Atuar em nível nacional no projeto, fornecimento de
+                      equipamentos e serviços de Instalações de sistemas de
+                      geração de energia fotovoltaica, sendo um diferencial como
+                      empresa prestadora de serviço;
+                    </li>
+                    <li>
+                      Buscar continuamente a participação e o envolvimento dos
+                      nossos colaboradores no desenvolvimento do Programas de
+                      Qualidade, Segurança, Saúde e Meio Ambiente;
+                    </li>
+                    <li>
+                      Prevenir lesões e doenças aos seres humanos e impactos
+                      adversos ao meio ambiente, principalmente aqueles
+                      relacionados aos agentes de risco mecânicos, ergonômicos,
+                      e a geração de resíduos sólidos;
+                    </li>
+                    <li>
+                      Cumprir a legislação e outros requisitos aplicáveis;
+                    </li>
+                  </ol>
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
+          </div>
+        </div>
+        <img src="/src/assets/img/figurante.png" alt="" />
       </div>
-      <div className="PEGContent-4">
-        <Accordion defaultActiveKey="0">
-          <Accordion.Item eventKey="1">
-            <Accordion.Header>
-              A 3P Energia tem o cliente como foco e a melhoria contínua do
-              desempenho como filosofia de trabalho, objetivando:
-            </Accordion.Header>
-            <Accordion.Body>
-              <ol>
-                <li>
-                  Atuar em nível nacional no projeto, fornecimento de
-                  equipamentos e serviços de Instalações de sistemas de geração
-                  de energia fotovoltaica, sendo um diferencial como empresa
-                  prestadora de serviço;
-                </li>
-                <li>
-                  Buscar continuamente a participação e o envolvimento dos
-                  nossos colaboradores no desenvolvimento do Programas de
-                  Qualidade, Segurança, Saúde e Meio Ambiente;
-                </li>
-                <li>
-                  Prevenir lesões e doenças aos seres humanos e impactos
-                  adversos ao meio ambiente, principalmente aqueles relacionados
-                  aos agentes de risco mecânicos, ergonômicos, e a geração de
-                  resíduos sólidos;
-                </li>
-                <li>Cumprir a legislação e outros requisitos aplicáveis;</li>
-              </ol>
-            </Accordion.Body>
-          </Accordion.Item>
-        </Accordion>
-      </div>
+
       <div className="PEGContent-5">
         <div className="PEGContent-5-text">
-          <h2>Responsibilidade Ambiental e Social (ESG)</h2>
+          <h2>Responsabilidade Ambiental e Social (ESG)</h2>
           <p>
             A Política ESG da 3P Energia inclui princípios e procedimentos de
             negócios que alinham as decisões estratégicas e atividades
             operacionais com seus objetivos econômicos, ambientais e sociais.
           </p>
         </div>
-        <img src="/src/assets/img/1k10k-1.png" alt="Imagem 1k10k" />
       </div>
       <div className="PEGContent-6">
         <h3>Programa 1k10k</h3>
@@ -187,41 +192,46 @@ function PEGContent() {
         </div>
       </div>
       <div className="PEGContent-11">
-        <img src="/src/assets/img/book2-1.png" alt="book 127 erros img" />
         <Form className="PEGContent-11-form">
           <h2>Solicite nosso portfólio completo!</h2>
-          <Form.Group
-            className="mb-3 PEGContent-11-form-group"
-            controlId="formBasicEmail"
-          >
-            <div className="PEGContent-11-form-item">
-              <Form.Label>Nome</Form.Label>
-              <Form.Control type="email" placeholder="Digite seu nome" />
-            </div>
-            <div className="PEGContent-11-form-item">
-              <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" placeholder="Digite seu email" />
-            </div>
-            <div className="PEGContent-11-form-item">
-              <Form.Label>Telefone</Form.Label>
-              <Form.Control type="email" placeholder="Digite seu telefone" />
-            </div>
-            <div className="PEGContent-11-form-item">
-              <Form.Label>Empresa</Form.Label>
-              <Form.Control type="email" placeholder="Digite sua empresa" />
-            </div>
-            <div className="PEGContent-11-form-item">
-              <Form.Label>Mensagem</Form.Label>
-              <Form.Control
-                as="textarea"
-                rows={4}
-                placeholder="Digite sua mensagem"
-              />
-            </div>
-          </Form.Group>
-          <Button className="PEGContent-11-btn" variant="primary" type="submit">
-            Submit
-          </Button>
+          <div className="PEGContent-11-form-form">
+            <Form.Group
+              className="mb-3 PEGContent-11-form-group"
+              controlId="formBasicEmail"
+            >
+              <div className="PEGContent-11-form-item">
+                <Form.Label>Nome</Form.Label>
+                <Form.Control type="email" placeholder="Digite seu nome" />
+              </div>
+              <div className="PEGContent-11-form-item">
+                <Form.Label>Email</Form.Label>
+                <Form.Control type="email" placeholder="Digite seu email" />
+              </div>
+              <div className="PEGContent-11-form-item">
+                <Form.Label>Telefone</Form.Label>
+                <Form.Control type="email" placeholder="Digite seu telefone" />
+              </div>
+              <div className="PEGContent-11-form-item">
+                <Form.Label>Empresa</Form.Label>
+                <Form.Control type="email" placeholder="Digite sua empresa" />
+              </div>
+              <div className="PEGContent-11-form-item">
+                <Form.Label>Mensagem</Form.Label>
+                <Form.Control
+                  as="textarea"
+                  rows={4}
+                  placeholder="Digite sua mensagem"
+                />
+              </div>
+            </Form.Group>
+            <Button
+              className="PEGContent-11-btn"
+              variant="primary"
+              type="submit"
+            >
+              Enviar
+            </Button>
+          </div>
         </Form>
       </div>
     </div>
