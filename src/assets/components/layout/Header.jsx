@@ -10,7 +10,7 @@ function Header() {
       <Container className="header-container">
         <Navbar.Brand className="header-logo order-lg-first" href="/">
           <img
-            src="/images/REDESIGN 3P ENERGIA BRANCO.png"
+            src="/3p-Energia/images/REDESIGN 3P ENERGIA BRANCO.png"
             height="80"
             className="d-inline-block align-top"
             alt="3P logo"

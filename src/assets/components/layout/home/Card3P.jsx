@@ -9,7 +9,7 @@ function Card3P(){
                 <p>Entre em contato.</p>
                 <Button className="card3P-btn">Conheça a 3P</Button>
             </div>
-            <img src="/images/3P ENERGIA VERTICAL BRANCO.png" alt="" />
+            <img src="/3p-Energia/images/3P ENERGIA VERTICAL BRANCO.png" alt="" />
         </div>
     )
 }
