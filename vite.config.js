@@ -1,7 +1,10 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import reactRefresh from '@vitejs/plugin-react-refresh'
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  base: '/3p-Energia/site/', // define o caminho base do site
+  plugins: [reactRefresh()], // usa o plugin react-refresh para hot reload
+  build: {
+    outDir: 'dist', // define o diretório de saída dos arquivos estáticos
+  }
 })

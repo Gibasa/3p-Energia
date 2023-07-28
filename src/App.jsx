@@ -5,20 +5,20 @@ import Home from "./assets/components/layout/home/Home";
 import Portfolio from "./assets/components/layout/portfolio/Portfolio"
 import PoliticaEGestao from "./assets/components/layout/politicaegestao/PoliticaEGestao"
 import Contato from "./assets/components/layout/contato/Contato"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import {homepage} from "../package.json"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 
 function App() {
   return (
     <div className="app">
-      <Router basename={homepage}>
+      <Router basename="/3p-Energia">
         <Header />
-        <Routes>
-          <Route path="3p-Energia" element={<Home />}></Route>
-          <Route path="3p-Energia/portfolio" element={<Portfolio />}></Route>
-          <Route path="3p-Energia/politicaegestao" element={<PoliticaEGestao />}></Route>
-          <Route path="3p-Energia/contato" element={<Contato />}></Route>
-        </Routes>
+        <Switch>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/portfolio" element={<Portfolio />}></Route>
+          <Route path="/politicaegestao" element={<PoliticaEGestao />}></Route>
+          <Route path="/contato" element={<Contato />}></Route>
+        </Switch>
       </Router>
     </div>
   );
