@@ -72,7 +72,7 @@ function PEGContent() {
             </Accordion>
           </div>
         </div>
-        <img src="/src/assets/img/figurante.png" alt="" />
+        <img src="../../../img/figurante.png" alt="" />
       </div>
 
       <div className="PEGContent-5">

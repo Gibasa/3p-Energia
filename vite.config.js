@@ -7,5 +7,6 @@ export default defineConfig({
   esbuild: {
     loader: 'jsx',
     jsxInject: 'import React from "react"'
-  }
+  },
+  assetsInclude:['**/*.png', '**/*.jpg', '**/*.svg']
 })
