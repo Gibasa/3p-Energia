@@ -19,10 +19,10 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="header-toggle" />
         <Navbar.Collapse id="basic-navbar-nav ">
           <Nav className="mx-auto header-links">
-            <Nav.Link className="header-link" href="/#/3p-Energia/">Home</Nav.Link>
-            <Nav.Link className="header-link" href="/#/3p-Energia/portfolio">Portfólio</Nav.Link>            
-            <Nav.Link className="header-link" href="/#/3p-Energia/politicaegestao">Política e Gestão</Nav.Link>            
-            <Nav.Link className="header-link" href="/#/3p-Energia/contato">Contato</Nav.Link>  
+            <Nav.Link className="header-link" href="/">Home</Nav.Link>
+            <Nav.Link className="header-link" href="/portfolio">Portfólio</Nav.Link>            
+            <Nav.Link className="header-link" href="/politicaegestao">Política e Gestão</Nav.Link>            
+            <Nav.Link className="header-link" href="/contato">Contato</Nav.Link>  
           </Nav>
             <Button className="header-btn ms-auto">Conheça a 3P</Button>          
         </Navbar.Collapse>

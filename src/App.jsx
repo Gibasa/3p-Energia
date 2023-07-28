@@ -5,7 +5,7 @@ import Home from "./assets/components/layout/home/Home";
 import Portfolio from "./assets/components/layout/portfolio/Portfolio"
 import PoliticaEGestao from "./assets/components/layout/politicaegestao/PoliticaEGestao"
 import Contato from "./assets/components/layout/contato/Contato"
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
 function App() {
@@ -14,10 +14,10 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/3p-Energia/" element={<Home />}></Route>
-          <Route path="/3p-Energia/portfolio" element={<Portfolio />}></Route>
-          <Route path="/3p-Energia/politicaegestao" element={<PoliticaEGestao />}></Route>
-          <Route path="/3p-Energia/contato" element={<Contato />}></Route>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/portfolio" element={<Portfolio />}></Route>
+          <Route path="/politicaegestao" element={<PoliticaEGestao />}></Route>
+          <Route path="/contato" element={<Contato />}></Route>
         </Routes>
       </Router>
     </div>
