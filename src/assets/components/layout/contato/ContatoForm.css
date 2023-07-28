@@ -5,9 +5,49 @@
 .contato-form-item{
     padding-top: 20px;
 }
+.portfolio-btn{
+    background-color: #047060;
+    border: 2px solid #5de280;
+    border-radius: 50px;
+    width: 50%;
+}
 
-@media (max-width: 991px) {
+@media (max-width: 599px) {
     .contato-form{
-        width: 80%;
+        width: 50%;
+    }
+    
+    .contato-form-item{
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    .contato-form{
+        width: 50%;
+    }
+    
+    .contato-form-item{
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+    .contato-form{
+        width: 50%;
+    }
+    
+    .contato-form-item{
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contato-form{
+        width: 50%;
+    }
+    
+    .contato-form-item{
+        padding-top: 20px;
     }
 }

@@ -3,8 +3,8 @@ import "./ContatoHeader.css";
 function ContatoHeader() {
   return (
     <div className="contato-header">
-      <p>3P Energia</p>
-      
+      <h2>Contato</h2> 
+      <div className="contato-line"></div>     
     </div>
   );
 }

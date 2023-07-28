@@ -9,14 +9,49 @@
 .contato-text{
     width: 50%;
 }
-@media (max-width: 991px) {
-
+@media (max-width: 599px) {
     .contato{
-        flex-direction: column-reverse;
-        margin: 50px 10px;
+        flex-direction: column;
+        gap: 50px;
+        margin: 0;
     }
-
+    
     .contato-text{
         width: 80%;
     }
- }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    .contato{
+        flex-direction: column;
+        gap: 50px;
+        margin: 0;
+    }
+    
+    .contato-text{
+        width: 80%;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+    .contato{
+        flex-direction: column;
+        gap: 50px;
+        margin: 0;
+    }
+    
+    .contato-text{
+        width: 80%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contato{
+        gap: 50px;
+        margin:100px;
+    }
+    
+    .contato-text{
+        width: 80%;
+    }
+}
