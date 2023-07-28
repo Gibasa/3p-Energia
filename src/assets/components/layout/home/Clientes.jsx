@@ -3,7 +3,7 @@ import "./Clientes.css";
 function Clientes() {
     const numeros = Array.from({length: 35}, (v, i) => i + 1);
     const imagens = numeros.map(n => (
-      <img src={`../../../img/clientes/${n}.png`} alt={`Imagem ${n}`} key={n} />
+      <img src={`/images/clientes/${n}.png`} alt={`Imagem ${n}`} key={n} />
     ));
     
     return (

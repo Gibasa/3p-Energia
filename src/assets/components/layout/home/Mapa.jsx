@@ -4,7 +4,7 @@ import { Button } from "react-bootstrap";
 function Mapa() {
   return (
     <div className="map-text">
-      <img src="../../../img/mapa do brasil.png" alt="" />
+      <img src="/images/mapa do brasil.png" alt="" />
       <div className="text-map">
         <p className="map-title">ATUAMOS EM TODO O BRASIL</p>
         <h2>Instalações Realizadas:</h2>
