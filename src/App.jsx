@@ -14,10 +14,10 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/portfolio" element={<Portfolio />}></Route>
-          <Route path="/politicaegestao" element={<PoliticaEGestao />}></Route>
-          <Route path="/contato" element={<Contato />}></Route>
+          <Route path="/3p-Energia/" element={<Home />}></Route>
+          <Route path="/3p-Energia/portfolio" element={<Portfolio />}></Route>
+          <Route path="/3p-Energia/politicaegestao" element={<PoliticaEGestao />}></Route>
+          <Route path="/3p-Energia/contato" element={<Contato />}></Route>
         </Routes>
       </Router>
     </div>
