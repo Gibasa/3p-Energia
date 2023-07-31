@@ -30,7 +30,7 @@ function ContatoForm(){
             />
           </div>
         </Form.Group>
-        <Button className="portfolio-btn" variant="primary" type="submit">
+        <Button className="contato-btn" variant="primary" type="submit">
           Submit
         </Button>
       </Form>
