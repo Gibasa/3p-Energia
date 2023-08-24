@@ -1,0 +1,48 @@
+.faq-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 2.5rem;
+  justify-content: center;
+}
+
+.faq-content-item {
+  flex: 0 0 40%;
+  padding: 1.5rem;
+
+}
+
+.faq-content-item:last-child {
+  flex: 0 0 40%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.faq-content-item.last-item .accordion-button {
+  /* Estiliza somente o botão do último accordion */
+  text-align: left;
+  color: #047060;
+}
+
+.faq-content-item.last-item .accordion-button::after {
+  /* Estiliza somente o indicador do último accordion */
+  padding-left: 1rem;
+  padding-right: 0;
+}
+
+.faq-content-item Accordion.Item {
+  width: 50%;
+}
+
+.faq-content-item .accordion-button {
+  color: #047060;
+}
+
+.faq-content-item .accordion-button::after {
+  padding-left: 1rem;
+  padding-right: 3rem;
+}
+
+.faq-content-item p {
+  color: #047060;
+}

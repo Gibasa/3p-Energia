@@ -1,15 +1,15 @@
 .header-bg{
     background-color: #047060;
-    padding: 20px 0;
+    padding: 2.5vw 0;
     z-index: 2;
 }
 
 .header-container{
-    gap: 80px;
+    gap: 10vw;
 }
 
 .header-links{
-    gap: 30px;
+    gap: 3vw;
 }
 
 .header-link{
