@@ -1,141 +1,129 @@
-.footer{
-    display: flex;
-    flex-direction: column;
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #047060;
 }
 
-.footer-main{
-    display: flex;
-    justify-content: space-around;
-    margin: 2rem 3.5rem;
+.footer-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 3.5rem;
 }
 
-.footer-copyright{
-    align-self: center;
+.footer-copyright {
+  align-self: center;
+  color: white;
 }
 
-.footer-logo{
-    width: 20vw;
-    margin: 0;
+.footer-logo {
+  width: 20vw;
+  margin: 0;
 }
 
-.footer-logo img{
-    width: 100%;
-    height: auto;
+.footer-logo img {
+  width: 100%;
+  height: auto;
 }
 
-.footer-3penergia p, .footer-3penergia h2, .footer-mapa p, .footer-mapa h2{
-    color: #047060;
-    padding-top: 1.2rem;
+.footer-btns{
+  display: flex;
+  gap: 3vw;
+  margin: 3vw 0;
 }
 
-.footer-last{
-    color: #047060;
+.footer-btns-item {
+  background-color: #047060;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 0.3rem;
+  text-align: center;
+  width: 15vw;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
 }
 
-.footer-form{
-    padding-top: 1.2rem;
+.footer-btns-item:hover {
+  background-color: #5de280;
+  border: 2px solid #5de280;
 }
 
-.footer-form input{
-    border: #047060 1px solid;
-    margin: 0.5rem;
-    border-radius: 5px;
+.footer-socials {
+  display: flex;
+  padding-top: 0.5rem;
+  gap: 2vw;
+  color: white;
+  font-size: 2rem;
 }
 
-.footer-form button{
-    background-color: white;
-    border: 2px solid #5de280;
-    border-radius: 50px;
-    width: 10vw;
+.footer-socials a{
+  color: white;
 }
 
-.footer-form button:hover{
-    background-color: #5de280;
-    border: 2px solid #5de280;
+.footer-icon{
+  cursor: pointer;
 }
 
-.footer-socials{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 1.2rem;
+.footer-icon:visited{
+  color: white;
+}
+
+.footer-icon:hover{
+  color: #5de280;
 }
 
 @media (max-width: 599px) {
-    .footer-main {
-        flex-wrap: wrap;
-      margin: 1rem 2rem;
-    }
-  
-    .footer-3penergia p, .footer-3penergia h2, .footer-mapa p, .footer-mapa h2, .footer-last h2 {
-      font-size: 0.8rem;
-    }
-  
-    .footer-logo {
-      max-width: 80vw; 
-    }
-  
-    .footer-form button {
-      width: 11vw; 
-    }
-  }
-  
-  @media (min-width: 600px) and (max-width: 899px) {
-        
-     .footer-main {
-       justify-content: space-between;
-       flex-wrap: wrap; 
-       margin: 1.5rem 3rem; 
-     }
-  
-     .footer-3penergia p, .footer-3penergia h2, .footer-mapa p, .footer-mapa h2, .footer-last h2 {
-       font-size: 0.9rem; 
-     }
-  
-     .footer-logo {
-       max-width: 60vw;
-     }
-  
-     .footer-form button {
-       width: 10vw; 
-     }
-  }
-  
-  @media (min-width: 900px) and (max-width: 1199px) {
-      
-     .footer-main {
-        flex-wrap: wrap;
-       margin: 1.5rem 2.5rem; 
-     }
-  
-     .footer-3penergia p, .footer-3penergia h2, .footer-mapa p, .footer-mapa h2, .footer-last h2 {
-       font-size: 1rem; 
-     }
-  
-     .footer-logo {
-       max-width: 40vw; 
-     }
-  
-     .footer-form button {
-       width: 8vw; 
-     }
-  }
-  
-  @media (min-width: 1200px) {
-      
-     .footer-main {
-       margin: 2rem 4rem; 
-     }
-  
-     .footer-3penergia p, .footer-3penergia h2, .footer-mapa p, .footer-mapa h2, .footer-last h2 {
-       font-size: 1.1rem; 
-     }
-  
-     .footer-logo {
-       max-width: 15vw; 
-     }
-  
-     .footer-form button {
-       width: 5vw; 
-     }
+  .footer-main {
+    flex-wrap: wrap;
+    margin: 1rem 2rem;
   }
 
+  .footer-logo {
+    max-width: 80vw;
+  }
+
+ 
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .footer-main {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1.5rem 3rem;
+  }
+
+  
+  .footer-logo {
+    max-width: 60vw;
+  }
+
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .footer-main {
+    flex-wrap: wrap;
+    margin: 1.5rem 2.5rem;
+  }
+
+  
+  .footer-logo {
+    max-width: 40vw;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .footer-main {
+    margin: 2rem 4rem;
+  }
+
+ 
+  .footer-logo {
+    max-width: 15vw;
+  }
+
+ }

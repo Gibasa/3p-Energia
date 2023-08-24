@@ -17,7 +17,7 @@ function Mapa() {
             <p className="map-list-title">+1.500</p> <p className="map-list-text">Instalações</p>
           </div>
           <div className="map-list-item">
-            <p className="map-list-title">40MWp</p> <p className="map-list-text">Instalados</p>
+            <p className="map-list-title">+50MWp</p> <p className="map-list-text">Instalados</p>
           </div>
           <div className="map-list-item">
             <p className="map-list-title">+200</p> <p className="map-list-text">Colaboradores</p>

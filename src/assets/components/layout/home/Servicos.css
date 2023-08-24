@@ -1,17 +1,17 @@
 .servicos {
-    margin: 50px 200px;
+    margin: 6.25vw 25vw;
   }
   
   .servicos h3 {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 5vw;
     font-size: 3.5rem;
     color: #047060;
   }
 
   .servicos p {
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 8.75vw;
     color: #047060;
     font-size: 1.2rem;
     font-weight: 500;
@@ -24,15 +24,15 @@
   }
   
   .servico {
-    width: 194.77px;
-    height: 250px;
+    width: 24.35vw;
+    height: 31.25vw;
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: top;
+    justify-content: center;
     align-items: center;
-    padding: 50px 10px;
-    margin: 10px 20px;
+    padding: 6.25vw 1.25vw;
+    margin: 1.25vw 2.5vw;
     border: 2px solid #5de280;
     border-radius: 20px;
   }

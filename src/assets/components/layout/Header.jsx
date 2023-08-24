@@ -1,17 +1,34 @@
+import { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Button from 'react-bootstrap/Button';
 import { Link } from "react-router-dom";
 import "./Header.css"
 
 function Header() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+  
   return (
-    <Navbar expand="lg" className="header-bg">
+    <Navbar expand="lg" className={`header-bg ${scrolled ? "scrolled" : ""}`}>
       <Container className="header-container">
         <Navbar.Brand className="header-logo order-lg-first" as={Link} to="/">
           <img
-            src="/3p-Energia/images/REDESIGN 3P ENERGIA BRANCO.png"
             height="80"
             className="d-inline-block align-top"
             alt="3P logo"
@@ -24,8 +41,7 @@ function Header() {
             <Nav.Link as={Link} className="header-link" to="/portfolio">Portfólio</Nav.Link>            
             <Nav.Link as={Link} className="header-link" to="/politicaegestao">Política e Gestão</Nav.Link>            
             <Nav.Link as={Link} className="header-link" to="/contato">Contato</Nav.Link>  
-          </Nav>
-            <Button className="header-btn ms-auto">Conheça a 3P</Button>          
+          </Nav>       
         </Navbar.Collapse>
       </Container>
     </Navbar>

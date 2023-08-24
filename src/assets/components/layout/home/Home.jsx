@@ -7,7 +7,6 @@ import Mapa from "./Mapa"
 import Clientes from "./Clientes"
 import Video from "./Video"
 import CarouselComponent from "./Carousel"
-import Card3P from "./Card3P"
 
 function Home(){
     return(
@@ -20,7 +19,6 @@ function Home(){
             <Clientes/>
             <Video/>
             <CarouselComponent/>
-            <Card3P/>
         </div>
     )
 }
