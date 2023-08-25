@@ -10,7 +10,7 @@ import CarouselComponent from "./Carousel"
 
 function Home(){
     return(
-        <div>
+        <div className="home">
             <Banner />
             <Servicos/>
             <QuemSomos/>

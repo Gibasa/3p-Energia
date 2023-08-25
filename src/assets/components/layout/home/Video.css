@@ -46,4 +46,7 @@
     .video-text h2, .video-text p{
         align-self: center;
     }
+    .video iframe{
+        width: 80vw;
+    }
 }

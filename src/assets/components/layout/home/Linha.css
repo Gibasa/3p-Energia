@@ -22,6 +22,10 @@
     .linha img{
         margin: 0;
         padding: 0;
+        width: 80%;
+    }
+    .linha h2{
+        font-size: 2.5rem;
     }
 }
 
@@ -32,5 +36,5 @@
     }
 }
 
-@media (min-width: 900px) and (max-width: 1199px) {}
+
 

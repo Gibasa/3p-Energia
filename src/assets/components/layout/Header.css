@@ -1,11 +1,13 @@
 .header-bg{
     background-color: #047060;
-    padding: 0.5vw 0;
     justify-content: center;
+    align-items: center;
+    padding: 10px;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     transition: background-color 0.3s, color 0.3s;
-    z-index: 5;
+    z-index: 5; 
+    top: 0;
 }
 
 .header-bg.scrolled {
@@ -13,18 +15,19 @@
   }
 
 .header-container{
-    gap: 30vw;
-    padding: 0;
+   gap: 30vw;
     margin: 0;
+    padding: 0;
+    top: 0;
 }
 
 .header-links{
-    gap: 2vw;
+   margin: 0 1rem;
 }
 
 .header-link{
     color: white;
-    font-size: 1.1rem;
+    font-size: clamp(0.8rem, 2.5vw, 1.1rem);
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -38,16 +41,6 @@
     color: #5de280;
 }
 
-.header-btn{
-    background-color: #047060;
-    border: 2px solid #5de280;
-    border-radius: 50px;
-}
-.header-btn:hover{
-    background-color: #5de280;
-    border: 2px solid #5de280;
-}
-
 .header-toggle{
     color: #5de280;
     background-color: white;
@@ -55,8 +48,16 @@
 
 .header-logo img {
     content: url("/3p-Energia/images/REDESIGN 3P ENERGIA BRANCO.png");
+    max-height: 10%;
   }
   
   .header-bg.scrolled .header-logo img {
     content: url("/3p-Energia/images/REDESIGN 3P ENERGIA COLORIDO.png");
+    max-height: 10%;
+  }
+
+  @media (max-width: 991px) {
+    .header-container{
+        gap: 0vw;
+    }
   }

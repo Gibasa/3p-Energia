@@ -17,6 +17,7 @@
 .footer-copyright {
   align-self: center;
   color: white;
+  margin-bottom: 1.2rem;
 }
 
 .footer-logo {
@@ -83,7 +84,23 @@
   }
 
   .footer-logo {
-    max-width: 80vw;
+    display: none;
+  }
+  
+  .footer-btns{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-btns-item{
+    width: 100%;
+    padding: 10px;
+  }
+
+  .footer-copyright{
+    text-align: center;
   }
 
  

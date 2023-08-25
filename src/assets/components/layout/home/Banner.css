@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: left;
   padding-left: 150px;
+  width: 100%;
 }
 
 .banner h2{
@@ -41,5 +42,6 @@
   }
   .banner h2{
     text-align: center;
+    font-size: 2rem;
   }
 }

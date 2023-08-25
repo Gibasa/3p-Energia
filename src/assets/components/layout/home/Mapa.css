@@ -82,6 +82,7 @@
 
     .map-text h2{
         align-self: center;
+        font-size: 2.5rem;
     }
 
     .map-btn{
@@ -101,6 +102,11 @@
 
     .map-list-title{
         margin-top: 0;
+    }
+    .text-map{
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -139,6 +145,11 @@
     .map-list-title{
         margin-top: 0;
     }
+    .text-map{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 @media (min-width: 900px) and (max-width: 1199px) {
@@ -148,6 +159,8 @@
         justify-content: center;
         align-items: center;
         padding: 50px 0;
+        margin: 0;
+        width: 80%;
     }
 
     .map-text img{
@@ -160,6 +173,12 @@
 
     .map-btn{
         align-self: center;
+    }
+
+    .text-map{
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
 }
