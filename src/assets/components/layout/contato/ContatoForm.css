@@ -3,14 +3,19 @@
 }
 
 .contato-form-item{
-    padding-top: 20px;
+    padding-top: 1vh;
 }
 .contato-btn{
     background-color: #047060;
     border: 2px solid #5de280;
-    border-radius: 50px;
+    border-radius: 2rem;
     width: 50%;
 }
+
+.contato-btn:hover {
+    background-color: #5de280;
+    border: 2px solid #5de280;
+  }
 
 @media (max-width: 599px) {
     .contato-form{
@@ -18,7 +23,7 @@
     }
     
     .contato-form-item{
-        padding-top: 20px;
+        padding-top: 2vw;
     }
 }
 
@@ -28,7 +33,7 @@
     }
     
     .contato-form-item{
-        padding-top: 20px;
+        padding-top: 2vw;
     }
 }
 
@@ -38,7 +43,7 @@
     }
     
     .contato-form-item{
-        padding-top: 20px;
+        padding-top: 2vw;
     }
 }
 
@@ -48,6 +53,6 @@
     }
     
     .contato-form-item{
-        padding-top: 20px;
+        padding-top: 1vh;
     }
 }

@@ -20,6 +20,10 @@
   flex-direction: column;
 }
 
+.carousel-item img{
+  height: 45vh;
+}
+
 .carousel-caption h5 {
   color: #047060;
 }

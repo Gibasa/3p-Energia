@@ -24,8 +24,6 @@
   }
   
   .servico {
-    width: 24.35vw;
-    height: 31.25vw;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -33,17 +31,11 @@
     align-items: center;
     padding: 6.25vw 1.25vw;
     margin: 1.25vw 2.5vw;
-    border: 2px solid #5de280;
-    border-radius: 20px;
+    background-image: url('/3p-Energia/images/caixa-3p.png');
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
-  .servico:hover{
-    background-color: #5de280;
-  }
-
-  .servico:hover .icon, .servico:hover .servico-text{
-    color: white;
-  }
   
   .icon {
     font-size: 3rem;
@@ -53,7 +45,7 @@
   
   .servico-text {
     margin-top: 10px;
-    width: 100%;
+    width: 60%;
     color: #047060;
     padding-top: 20px;
   }
@@ -129,10 +121,11 @@
   .servico {
     justify-content: top;
     align-items: center;
-    width: 30%;
-    height: 260px;
-    margin: 10px;
-    padding: 20px;
+    width: 15vw;
+    height: 30vh;
+    padding: 4.25vw 1.25vw 6.25vw 1.25vw;
+    margin: 1.25vw 1.5vw;
+    background-size: contain;
   }
  
 }

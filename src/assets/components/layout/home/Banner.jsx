@@ -1,4 +1,3 @@
-import { Button } from "react-bootstrap";
 import "./Banner.css"
 
 function Banner() {
@@ -7,7 +6,7 @@ function Banner() {
       <h2>
         Engenharia em <br /> Energia Solar.
       </h2>
-      <Button className=" btn-sm home-btn ">Conheça a 3P</Button>
+      <div className=" btn-sm home-btn ">Conheça a 3P</div>
     </div>
   );
 }

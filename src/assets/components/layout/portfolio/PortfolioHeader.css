@@ -3,13 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    padding: 50px 100px;
+    padding: 5vh 10vw 2vh 10vw;
     height: 150px;
     color: #047060;    
-    position: absolute;
-    top: 130px;
+    position: relative;
+    top: 13vh;
     width: 100%;
-    height: 200px;
+    height: 20vh;
     z-index: 1;
 }
 
@@ -18,7 +18,7 @@
     font-size: 3.5rem;
 }
 .portfolio-line{
-    width: 200px;
+    width: 12vw;
     height: 4px;
     background-color: #bd791a;
     border-radius: 10px;

@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    margin: 100px 300px 300px 300px;
+    gap: 5vw;
+    margin: 0;
 }
 
 .contato-text{
@@ -12,7 +12,7 @@
 @media (max-width: 599px) {
     .contato{
         flex-direction: column;
-        gap: 50px;
+        gap: 5vw;
         margin: 0;
     }
     
@@ -24,7 +24,7 @@
 @media (min-width: 600px) and (max-width: 899px) {
     .contato{
         flex-direction: column;
-        gap: 50px;
+        gap: 5vw;
         margin: 0;
     }
     
@@ -36,7 +36,7 @@
 @media (min-width: 900px) and (max-width: 1199px) {
     .contato{
         flex-direction: column;
-        gap: 50px;
+        gap: 5vw;
         margin: 0;
     }
     
@@ -47,8 +47,8 @@
 
 @media (min-width: 1200px) {
     .contato{
-        gap: 50px;
-        margin:100px;
+        gap: 5vw;
+        margin:0 10vw 10vh 10vw;
     }
     
     .contato-text{

@@ -17,7 +17,7 @@
 .PEGContent-11,
 .PEGContent-12 {
   color: #047060;
-  margin: 100px 100px 100px 100px;
+  margin: 10vh 10vw 10vh 10vw;
 }
 
 .PEGContent-1 h2,
@@ -54,7 +54,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 3vw;
   margin-top: 0px;
 }
 .PEGContent-1 p,
@@ -66,7 +66,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 1vw;
 }
 
 .PEGContent-2-p:first-child {
@@ -77,9 +77,9 @@
 
 .PEGContent-2-p {
   border: 2px solid #bd791a;
-  border-radius: 10px;
+  border-radius: 2rem;
   width: calc(100% / 5);
-  height: 200px;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,7 +91,7 @@
 .PEGContent-2 p {
   text-align: center;
   justify-content: center;
-  padding: 10px;
+  padding: 1rem;
   margin: 0;
 }
 
@@ -99,29 +99,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 2.5rem;
   margin: 0;
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
   background-color: #f0f0f0;
-  padding: 50px 0;
+  padding: 10vh 0;
 }
 
 .PEGContent-3-text {
-  padding-top: 60px;
+  padding-top: 6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  margin: 20px;
+  margin: 2rem;
 }
 
 .PEGContent-3-text h2,
 .PEGContent-3-text p {
-  padding: 10px;
+  padding: 1rem;
 }
 
 .PEGContent-3 img {
-  height: 500px;
+  height: 30vw;
+  max-height: 400px;
 }
 
 .PEGContent-3-accordion {
@@ -132,7 +133,7 @@
 }
 
 .PEGContent-3-accordion .accordion-button::after {
-  padding-left: 30px;
+  padding-left: 2rem;
 }
 
 .PEGContent-3-accordion li {
@@ -160,13 +161,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 2.5rem;
   margin-bottom: 0;
 }
 
 .PEGContent-5-text {
   width: 70%;
-  padding: 20px;
+  padding: 2rem;
   text-align: center;
 }
 
@@ -176,9 +177,9 @@
   align-items: center;
   justify-content: space-around;
   border: 1px solid #047060;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 0 100px;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin: 0 10vw;
 }
 .PEGContent-6 p,
 .PEGContent-6 h3 {
@@ -187,7 +188,7 @@
 
 .accordion-button-ambiental {
   background-color: #fff;
-  padding: 10px;
+  padding: 1rem;
   cursor: pointer;
   transition: background-color 0.2s ease;
   display: flex;
@@ -199,7 +200,7 @@
 
 .accordion-button-social {
   background-color: #fff;
-  padding: 10px;
+  padding: 1rem;
   cursor: pointer;
   transition: background-color 0.2s ease;
   display: flex;
@@ -212,8 +213,8 @@
 .PEGContent-7 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
-  margin-top: 20px;
+  gap: 2.5rem;
+  margin-top: 2rem;
 }
 
 .PEGContent-7 .accordion-button {
@@ -222,7 +223,7 @@
 }
 
 .PEGContent-7 p {
-  grid-column: 1 / span 2;
+  grid-column: 1 / span 1;
   color: #047060;
 }
 
@@ -230,7 +231,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 80px;
+  gap: 4rem;
 }
 
 .PEGContent-8 p, .PEGContent-8 h2 {
@@ -240,14 +241,14 @@
 
 .PEGContent-9 {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 3rem;
 }
 
 .PEGContent-10 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
-  margin-top: 20px;
+  gap: 2.5rem;
+  margin-top: 2rem;
 }
 
 .PEGContent-10 .accordion-button {
@@ -273,7 +274,7 @@
 .PEGContent-11-form {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 2rem;
   background-color: #bd791a;
   justify-content: center;
   align-items: c;
@@ -282,7 +283,7 @@
 
 .PEGContent-11-form h2{
   text-align: left;
-  padding-left: 35px;
+  padding-left: 2.5rem;
   font-size: 2rem;
 }
 
@@ -295,7 +296,7 @@
 
 .PEGContent-11-form-item {
   width: 50%;
-  padding: 10px;
+  padding: 1rem;
 }
 
 .PEGContent-11-form-item:last-child {
@@ -305,7 +306,7 @@
 .PEGContent-11-btn {
   background-color: #047060;
   border: 2px solid #5de280;
-  border-radius: 50px;
+  border-radius: 2rem;
   width: 10%;
 }
 
