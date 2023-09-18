@@ -3,6 +3,7 @@
 }
 .green-filter {
   filter: brightness(115%) hue-rotate(90deg);
+  height: 20%;
 }
 
 [data-bs-theme="dark"] .carousel .carousel-indicators [data-bs-target],
@@ -12,16 +13,21 @@
 }
 .carousel-caption {
   position: absolute;
-  top: 32%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50%;
   display: flex;
   flex-direction: column;
+  height: auto
+}
+
+.text-center.carousel-caption{
+  height: 20%;
 }
 
 .carousel-item img{
-  height: 45vh;
+  height:50vh;
 }
 
 .carousel-caption h5 {

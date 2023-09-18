@@ -1,5 +1,4 @@
 import "./Video.css"
-import { Button } from "react-bootstrap"
 
 function Video(){
     const iframe = (
@@ -16,7 +15,7 @@ function Video(){
             <div className="video-text">
                 <h2>EPC</h2>
                 <p>Usina Solar PE II</p>
-                <Button className="video-btn">Conheça nosso portfólio</Button>
+                <div className="video-btn">Conheça nosso portfólio</div>
             </div>
         </div>
     )

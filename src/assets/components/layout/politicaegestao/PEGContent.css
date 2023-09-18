@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30vh;
 }
 
 .PEGContent-1,
@@ -70,14 +71,15 @@
 }
 
 .PEGContent-2-p:first-child {
-  border: 3px solid #047060;
+  background-image: url("/3p-Energia/images/botao 11.png");
+  background-size: 100% 100%;
   color: #047060;
   font-weight: 600;
 }
 
 .PEGContent-2-p {
-  border: 2px solid #bd791a;
-  border-radius: 2rem;
+  background-image: url("/3p-Energia/images/botao 12.png");
+  background-size: 100% 100%;
   width: calc(100% / 5);
   height: 20vh;
   display: flex;
@@ -176,8 +178,10 @@
   justify-content: center;
   align-items: center;
   justify-content: space-around;
-  border: 1px solid #047060;
-  border-radius: 2rem;
+  background-image: url("/3p-Energia/images/botao-comprido.png");
+  background-size: 100% 100%;
+  width: 80%;
+  height: auto;
   padding: 1rem;
   margin: 0 10vw;
 }
@@ -285,6 +289,7 @@
   text-align: left;
   padding-left: 2.5rem;
   font-size: 2rem;
+  padding-left: 16.5vw;
 }
 
 .PEGContent-11-form-group {
@@ -304,10 +309,17 @@
 }
 
 .PEGContent-11-btn {
-  background-color: #047060;
-  border: 2px solid #5de280;
-  border-radius: 2rem;
-  width: 10%;
+  background-image: url("/3p-Energia/images/BOTÃO 3P.png");
+  background-size: cover;
+  width: 10vw;
+  text-align: center;
+  cursor: pointer;
+  padding: 0.2rem;
+}
+
+.PEGContent-11-btn:hover{
+  background-image: url("/3p-Energia/images/BOTÃO 3P claro.png");
+
 }
 
 @media (max-width: 599px) {
@@ -328,11 +340,11 @@
   .PEGContent-2 {
     flex-direction: column;
     gap: 20px;
-    margin-top: 0px;
+    margin:auto;
+    width: 40vw;
   }
   .PEGContent-2-p {
     width: 100%;
-    height: 150px;
     font-size: 1rem;
   }
 
@@ -382,8 +394,9 @@
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid #047060;
-    border-radius: 10px;
+    border: 2px solid #047060;
+    background-image: none;
+    width: auto;
     padding: 10px;
     margin: 0 50px;
   }
@@ -427,9 +440,6 @@
   }
 
   .PEGContent-11-btn {
-    background-color: #047060;
-    border: 2px solid #5de280;
-    border-radius: 50px;
     width: 20%;
   }
 }
@@ -453,7 +463,8 @@
   .PEGContent-2 {
     flex-direction: column;
     gap: 20px;
-    margin-top: 0px;
+    margin:auto;
+    width: 40vw;
   }
   .PEGContent-2-p {
     width: 100%;
@@ -507,10 +518,11 @@
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid #047060;
-    border-radius: 10px;
+    border: 2px solid #047060;
+    background-image: none;
     padding: 10px;
     margin: 0 50px;
+    width: auto;
   }
   .PEGContent-6 p,
   .PEGContent-6 h3 {
@@ -552,9 +564,6 @@
   }
 
   .PEGContent-11-btn {
-    background-color: #047060;
-    border: 2px solid #5de280;
-    border-radius: 50px;
     width: 20%;
   }
 }
@@ -578,7 +587,8 @@
   .PEGContent-2 {
     flex-direction: column;
     gap: 20px;
-    margin: 0px 300px 50px 300px;
+    width: 40vw;
+    margin: auto;
   }
   .PEGContent-2-p {
     width: 100%;
@@ -632,10 +642,11 @@
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid #047060;
-    border-radius: 10px;
+    border: 2px solid #047060;
+    background-image: none;
     padding: 10px;
     margin: 0 50px;
+    width: auto;
   }
   .PEGContent-6 p,
   .PEGContent-6 h3 {
@@ -674,12 +685,5 @@
 
   .PEGContent-10 {
     grid-template-columns: repeat(1, 1fr);
-  }
-
-  .PEGContent-11-btn {
-    background-color: #047060;
-    border: 2px solid #5de280;
-    border-radius: 50px;
-    width: 20%;
   }
 }

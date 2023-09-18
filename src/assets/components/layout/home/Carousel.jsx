@@ -28,8 +28,7 @@ function CarouselComponent() {
               aumenta ainda mais minha satisfação com relação ao retorno
               financeiro do projeto. O suporte da 3P tem sido excelente, se
               colocando sempre a disposição e estando com a equipe a postos para
-              qualquer necessidade, além da plataforma de acompanhamento que é
-              de muito simples usabilidade.
+              qualquer necessidade.
             </p>
             <h5>Filipe Moura Vieira</h5>
           </Carousel.Caption>

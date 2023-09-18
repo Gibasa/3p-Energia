@@ -1,5 +1,5 @@
 import "./ContatoForm.css"
-import { Form, Button } from "react-bootstrap"
+import { Form } from "react-bootstrap"
 
 function ContatoForm(){
 
@@ -30,9 +30,9 @@ function ContatoForm(){
             />
           </div>
         </Form.Group>
-        <Button className="contato-btn" variant="primary" type="submit">
-          Submit
-        </Button>
+        <div className="contato-btn" type="submit">
+          Enviar
+        </div>
       </Form>
     )
 }

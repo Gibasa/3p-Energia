@@ -1,5 +1,5 @@
 import "./PortfolioForm.css";
-import { Form, Button } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 
 function PortfolioForm() {
   return (
@@ -36,9 +36,9 @@ function PortfolioForm() {
             />
           </div>
         </Form.Group>
-        <Button className="portfolio-btn" variant="primary" type="submit">
+        <div className="portfolio-btn" type="submit">
           Enviar
-        </Button>
+        </div>
         </div>
       </Form>
   );

@@ -1,58 +1,77 @@
-.contato-form{
-    width: 50%;
+.contato-form {
+  width: 50%;
+  margin-top: 20vh;
 }
 
-.contato-form-item{
-    padding-top: 1vh;
+.contato-form-item {
+  padding-top: 1vh;
 }
-.contato-btn{
-    background-color: #047060;
-    border: 2px solid #5de280;
-    border-radius: 2rem;
-    width: 50%;
+.contato-btn {
+  background-image: url("/3p-Energia/images/BOTÃO 3P.png");
+  background-size: cover;
+  width: 10vw;
+  text-align: center;
+  cursor: pointer;
+  padding: 0.2rem;
+  color: white;
 }
 
 .contato-btn:hover {
-    background-color: #5de280;
-    border: 2px solid #5de280;
-  }
+  background-image: url("/3p-Energia/images/BOTÃO 3P claro.png");
+}
+
+.contato-form .form-control{
+  border: 1px solid #047060;
+  border-radius: 0;
+}
+
+.contato-form .form-label{
+  color: #047060;
+  font-weight: 500;
+}
 
 @media (max-width: 599px) {
-    .contato-form{
-        width: 50%;
-    }
-    
-    .contato-form-item{
-        padding-top: 2vw;
-    }
+  .contato-form {
+    width: 50%;
+  }
+
+  .contato-form-item {
+    padding-top: 2vw;
+  }
+  .contato-btn {
+    width: 20vw;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 899px) {
-    .contato-form{
-        width: 50%;
-    }
-    
-    .contato-form-item{
-        padding-top: 2vw;
-    }
+  .contato-form {
+    width: 50%;
+  }
+
+  .contato-form-item {
+    padding-top: 2vw;
+  }
+  .contato-btn {
+    width: 20vw;
+  }
 }
 
 @media (min-width: 900px) and (max-width: 1199px) {
-    .contato-form{
-        width: 50%;
-    }
-    
-    .contato-form-item{
-        padding-top: 2vw;
-    }
+  .contato-form {
+    width: 50%;
+  }
+
+  .contato-form-item {
+    padding-top: 2vw;
+  }
 }
 
 @media (min-width: 1200px) {
-    .contato-form{
-        width: 50%;
-    }
-    
-    .contato-form-item{
-        padding-top: 1vh;
-    }
+  .contato-form {
+    width: 50%;
+  }
+
+  .contato-form-item {
+    padding-top: 1vh;
+  }
 }

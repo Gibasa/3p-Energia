@@ -108,6 +108,12 @@
   
   
   @media (max-width: 599px) {
+    #linha-do-tempo{
+      width: 90%;
+      margin: 0;
+      padding: 0;
+    }
+
     #linha-do-tempo .content img {
       margin: 0;
       padding: 0;
@@ -116,12 +122,39 @@
     #linha-do-tempo .content h2 {
       font-size: 2.5rem;
     }
+    #linha-do-tempo .right {
+      width: 50%;
+      max-width: 50%; 
+      margin-left: 60px;
+    }
+    #linha-do-tempo .left h3{
+      font-size: 1.3rem;
+    }
+
+    #linha-do-tempo .left{
+      width: 20vw;
+    }
+    
   }
   
   @media (min-width: 600px) and (max-width: 899px) {
     #linha-do-tempo .content img {
       margin: 0;
       padding: 0;
+    }
+
+    #linha-do-tempo .right {
+      width: 50%;
+      max-width: 50%; 
+      margin-left: 40px;
+    }
+  }
+
+  @media (min-width: 900px) and (max-width: 1199px) {
+    #linha-do-tempo .right {
+      width: 50%;
+      max-width: 50%; 
+      margin-left: 40px;
     }
   }
   

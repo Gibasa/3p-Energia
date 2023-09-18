@@ -1,5 +1,5 @@
 import "./PEGContent.css";
-import { Accordion, Form, Button } from "react-bootstrap";
+import { Accordion, Form} from "react-bootstrap";
 
 function PEGContent() {
   return (
@@ -224,13 +224,12 @@ function PEGContent() {
                 />
               </div>
             </Form.Group>
-            <Button
+            <div
               className="PEGContent-11-btn"
-              variant="primary"
               type="submit"
             >
               Enviar
-            </Button>
+            </div>
           </div>
         </Form>
       </div>

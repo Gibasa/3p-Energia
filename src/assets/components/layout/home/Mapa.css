@@ -1,254 +1,250 @@
-.map-text{
+.map-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 60px;
+  gap: 100px;
+}
+
+.text-map {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.map-text img {
+  height: 600px;
+  padding-right: 100px;
+}
+.map-title {
+  color: #047060;
+}
+
+.map-text h2 {
+  font-size: 3.5rem;
+  padding: 5px 0 30px 0;
+  color: #047060;
+  width: 80%;
+}
+
+.map-btn {
+  background-image: url("/3p-Energia/images/BOTÃO 3P.png");
+  background-size: cover;
+  width: 12vw;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+.map-btn:hover {
+    background-image: url("/3p-Energia/images/BOTÃO 3P claro.png");
+}
+
+.map-list-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.map-list-title {
+  margin: 50px 0 0 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.map-list-text {
+  font-weight: 300;
+}
+
+.map-list {
+  display: flex;
+  color: #047060;
+  font-weight: 600;
+  font-size: larger;
+  margin-top: 10px;
+  gap: 50px;
+}
+
+@media (max-width: 599px) {
+  .map-text {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+
+  .map-text img {
+    display: none;
+  }
+
+  .map-text h2 {
+    align-self: center;
+    font-size: 2.5rem;
+  }
+
+  .map-btn {
+    align-self: center;
+    width: 40vw;
+  }
+
+  .map-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 100px;
+    gap: 0;
+  }
+
+  .map-list-item {
+    margin: 10px 10px 0 10px;
+  }
+
+  .map-list-title {
+    margin-top: 0;
+  }
+  .text-map {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .map-text {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+
+  .map-text img {
+    display: none;
+  }
+
+  .map-text h2 {
+    align-self: center;
+  }
+
+  .map-btn {
+    align-self: center;
+    width: 30vw;
+  }
+
+  .map-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 100px;
+    gap: 0;
+  }
+
+  .map-list-item {
+    margin: 10px 10px 0 10px;
+  }
+
+  .map-list-title {
+    margin-top: 0;
+  }
+  .text-map {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .map-text {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    margin: 0;
+    width: 100%;
+  }
+  .map-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 100px;
+    gap: 30px;
+  }
+
+  .map-text img {
+    display: none;
+  }
+
+  .map-text h2 {
+    align-self: center;
+  }
+
+  .map-btn {
+    align-self: center;
+    width: 25vw;
+  }
+
+  .text-map {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .map-text {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     background-color: #f0f0f0;
-    padding: 60px;
-    gap: 100px;
-}
+    padding: 60px 100px;
+    gap: 10px;
+  }
 
-.text-map{
+  .text-map {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
+  }
 
-.map-text img{
-    height: 600px;
-    padding-right: 100px;
-}
-.map-title{
+  .map-text img {
+    height: 350px;
+    padding-right: 80px;
+  }
+  .map-title {
     color: #047060;
-}
+  }
 
-.map-text h2{
+  .map-text h2 {
     font-size: 3.5rem;
     padding: 5px 0 30px 0;
     color: #047060;
     width: 80%;
-}
+  }
 
-.map-btn{
-    background-color: #047060;
-    border: 2px solid #5de280;
-    border-radius: 50px;
-    width: 230px;
-}
-.map-btn:hover{
-    background-color: #5de280;
-    border: 2px solid #5de280;
-}
-
-.map-list-item{
+  .map-list-item {
     display: flex;
     flex-direction: column;
-}
+  }
 
-.map-list-title{
+  .map-list-title {
     margin: 50px 0 0 0;
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 30px;
-}
+  }
 
-.map-list-text{
+  .map-list-text {
     font-weight: 300;
-}
+  }
 
-.map-list{
+  .map-list {
     display: flex;
     color: #047060;
     font-weight: 600;
     font-size: larger;
     margin-top: 10px;
     gap: 50px;
-}
-
-
-
-@media (max-width: 599px) {
-    .map-text{
-        flex-direction: column-reverse;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        padding: 50px 0;
-    }
-
-    .map-text img{
-        display: none;
-    }
-
-    .map-text h2{
-        align-self: center;
-        font-size: 2.5rem;
-    }
-
-    .map-btn{
-        align-self: center;
-    }
-
-    .map-list{
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 40px 100px;
-        gap: 0;
-    }
-    
-    .map-list-item{
-        margin: 10px 10px 0 10px;
-    }
-
-    .map-list-title{
-        margin-top: 0;
-    }
-    .text-map{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-}
-
-@media (min-width: 600px) and (max-width: 899px) {
-    .map-text{
-        flex-direction: column-reverse;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        padding: 50px 0;
-    }
-
-    .map-text img{
-        display: none;
-    }
-
-    .map-text h2{
-        align-self: center;
-    }
-
-    .map-btn{
-        align-self: center;
-    }
-
-    .map-list{
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 40px 100px;
-        gap: 0;
-    }
-    
-    .map-list-item{
-        margin: 10px 10px 0 10px;
-    }
-
-    .map-list-title{
-        margin-top: 0;
-    }
-    .text-map{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-}
-
-@media (min-width: 900px) and (max-width: 1199px) {
-    .map-text{
-        flex-direction: column-reverse;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        padding: 50px 0;
-        margin: 0;
-        width: 80%;
-    }
-
-    .map-text img{
-        display: none;
-    }
-
-    .map-text h2{
-        align-self: center;
-    }
-
-    .map-btn{
-        align-self: center;
-    }
-
-    .text-map{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-}
-
-@media (min-width: 1200px) {
-
-    .map-text{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        background-color: #f0f0f0;
-        padding: 60px 100px;
-        gap: 10px;
-    }
-    
-    .text-map{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    
-    .map-text img{
-        height: 350px;
-        padding-right: 80px;
-    }
-    .map-title{
-        color: #047060;
-    }
-    
-    .map-text h2{
-        font-size: 3.5rem;
-        padding: 5px 0 30px 0;
-        color: #047060;
-        width: 80%;
-    }
-    
-    .map-btn{
-        background-color: #047060;
-        border: 2px solid #5de280;
-        border-radius: 50px;
-        width: 230px;
-    }
-    .map-btn:hover{
-        background-color: #5de280;
-        border: 2px solid #5de280;
-    }
-    
-    .map-list-item{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .map-list-title{
-        margin: 50px 0 0 0;
-        font-size: 2.5rem;
-        font-weight: 700;
-        line-height: 30px;
-    }
-    
-    .map-list-text{
-        font-weight: 300;
-    }
-    
-    .map-list{
-        display: flex;
-        color: #047060;
-        font-weight: 600;
-        font-size: larger;
-        margin-top: 10px;
-        gap: 50px;
-    }
+  }
 }

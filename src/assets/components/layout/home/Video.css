@@ -1,52 +1,74 @@
-.video{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px;
-    gap: 100px;
-    background-color: #f0f0f0;
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  gap: 100px;
+  background-color: #f0f0f0;
 }
 
-.video-text{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.video-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.video-text h2{
-    color: #047060;
-    font-size: 3.5rem;
-    line-height: 20px;
+.video-text h2 {
+  color: #047060;
+  font-size: 3.5rem;
+  line-height: 20px;
 }
 
-.video-text p{
-    color: #047060;
-    font-weight: 500;
+.video-text p {
+  color: #047060;
+  font-weight: 500;
 }
 
-.video-btn{
-    background-color: #047060;
-    border: 2px solid #5de280;
-    border-radius: 50px;
-    width: 230px;
+.video-btn {
+  background-image: url("/3p-Energia/images/BOTÃO 3P.png");
+  background-size: cover;
+  width: 12vw;
+  padding: 0.5rem;
+  color: white;
+  text-align: center;
+  cursor: pointer;
 }
-.video-btn:hover{
-    background-color: #5de280;
-    border: 2px solid #5de280;
+.video-btn:hover {
+  background-image: url("/3p-Energia/images/BOTÃO 3P claro.png");
+}
+
+
+@media (max-width: 599px) {
+    .video-btn {
+        width: 40vw;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    .video-btn {
+        width: 30vw;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+    .video-btn {
+        width: 25vw;
+    }
 }
 
 @media (max-width: 991px) {
-    .video{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 80px;
-    }
+  .video {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
 
-    .video-text h2, .video-text p{
-        align-self: center;
-    }
-    .video iframe{
-        width: 80vw;
-    }
+  .video-text h2,
+  .video-text p {
+    align-self: center;
+  }
+  .video iframe {
+    width: 80vw;
+  }
 }

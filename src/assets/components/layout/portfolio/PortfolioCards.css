@@ -1,65 +1,84 @@
-.portfolio-cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-    margin-top: 10vh;
-    
+.portfolio-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  margin-top: 10vh;
 }
-.portfolio-cards img{
-    height: 30vh;
-    position: relative;
-    transition: transform 0.2s ease;
-    z-index: 2;
+.portfolio-cards img {
+  height: 30vh;
+  position: relative;
+  transition: transform 0.2s ease;
+  z-index: 2;
 }
 
 .portfolio-cards-item {
-    flex: 0 0 calc(33.33%-2vw);
-    margin: 100px 10px;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    
+  flex: 0 0 calc(33.33%-2vw);
+  margin: 100px 10px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
-.portfolio-cards-text{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    top: 90%;
-    width: 80%;
-    background-color: white;
-    color: #047060;
-    padding: 1rem;
-    border-radius: 2rem;
-    border: 3px solid #047060;
-    z-index: 3;
-  }
-
-  .portfolio-cards-text:hover h3{
-    color: #bd791a;
-  }
-
-.portfolio-cards-data{
-    display: flex;
-    gap: 2rem;
-    padding-top: 1rem;
-    color: #047060;
+.portfolio-cards-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 90%;
+  width: 80%;
+  background-image: url("/3p-Energia/images/botao-portfolio.png");
+  background-size: 100% 100%;
+  width: 80%;
+  color: #047060;
+  padding: 1rem;
+  z-index: 3;
 }
-  
+
+.portfolio-cards-text:hover h3 {
+  color: #bd791a;
+}
+
+.portfolio-cards-data {
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+  color: #047060;
+}
 
 .portfolio-cards-item:hover img {
-    transform: translateY(-10%);
+  transform: translateY(-10%);
+}
+
+@media (max-width: 599px) {
+  .portfolio-cards{
+    margin: 0;
+    width: 100%;
+    text-align: center;
   }
+  .portfolio-cards img{
+    width: 100%;
+    height: auto;
+  }
+  .portfolio-cards-data{
+    gap: 0.5rem;
+  }
+}
 
-  @media (max-width: 599px) {}
+@media (min-width: 600px) and (max-width: 899px) {
+}
 
-  @media (min-width: 600px) and (max-width: 899px) {}
-  
-  @media (min-width: 900px) and (max-width: 1199px) {}
-  
-  @media (min-width: 1200px) {}
+@media (min-width: 900px) and (max-width: 1199px) {
+  .portfolio-cards-data{
+    gap: 1rem;
+  }
+  .portfolio-cards-text{
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+}
