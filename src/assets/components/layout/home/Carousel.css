@@ -19,15 +19,15 @@
   width: 50%;
   display: flex;
   flex-direction: column;
-  height: auto
+  height: auto;
 }
 
-.text-center.carousel-caption{
+.text-center.carousel-caption {
   height: 20%;
 }
 
-.carousel-item img{
-  height:50vh;
+.carousel-item img {
+  height: 40vh;
 }
 
 .carousel-caption h5 {
@@ -39,40 +39,98 @@
   color: #047060;
 }
 
-.carousel-icon{
-    color: #047060;
-    padding-right: 00px;
-    font-size: 2.5rem;
-    padding-bottom: 10px;
+.carousel-icon {
+  color: #047060;
+  padding-right: 00px;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
 }
 
-@media (max-width: 599px) {
-    .carousel-item img{
-        height: 600px;
-    }
+@media (max-width: 284px) {
+  .carousel-item img {
+    height: 90vh;
+  }
 
-    .carousel-caption{
-        width: 75%;
-    }
+  .carousel-caption {
+    width: 75%;
+  }
 }
 
-@media (min-width: 600px) and (max-width: 899px) {
-    .carousel-item img{
-        height: 600px;
-    }
+@media (min-width: 285px) and (max-width: 324px) {
+  .carousel-item img {
+    height: 80vh;
+  }
 
-    .carousel-caption{
-        width: 75%;
-    }
+  .carousel-caption {
+    width: 75%;
+  }
+}
+
+@media (min-width: 325px) and (max-width: 399px) {
+  .carousel-item img {
+    height: 70vh;
+  }
+
+  .carousel-caption {
+    width: 75%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 459px) {
+  .carousel-item img {
+    height: 60vh;
+  }
+
+  .carousel-caption {
+    width: 75%;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 599px) {
+  .carousel-item img {
+    height: 55vh;
+  }
+
+  .carousel-caption {
+    width: 75%;
+  }
+}
+@media (min-width: 600px) and (max-width: 625px) {
+  .carousel-item img {
+    height: 50vh;
+  }
+
+  .carousel-caption {
+    width: 75%;
+  }
+}
+
+@media (min-width: 626px) and (max-width: 739px) {
+  .carousel-item img {
+    height: 45vh;
+  }
+
+  .carousel-caption {
+    width: 75%;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 899px) {
+  .carousel-item img {
+    height: 45vh;
+  }
+
+  .carousel-caption {
+    width: 75%;
+  }
 }
 
 @media (min-width: 900px) and (max-width: 1199px) {
-    .carousel-item img{
-        height: 500px;
-    }
+  .carousel-item img {
+    height: 40vh;
+  }
 
-    .carousel-caption{
-        width: 75%;
-    }
+  .carousel-caption {
+    width: 75%;
+  }
 }
-

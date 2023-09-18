@@ -7,7 +7,7 @@ function CarouselComponent() {
   return (
     <div className="carousel-container">
       <Carousel data-bs-theme="dark">
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <img
             className="d-block w-100 green-filter"
             src="https://via.placeholder.com/800x300?text=&bg=f5f5f5"
@@ -32,7 +32,7 @@ function CarouselComponent() {
             </p>
             <h5>Filipe Moura Vieira</h5>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
         <Carousel.Item>
           <img
             className="d-block w-100 green-filter"
