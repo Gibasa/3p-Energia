@@ -36,21 +36,24 @@ function Servicos() {
       <p>
         ● BOT (Build, Operate, Transfer): Assumimos a responsabilidade total do
         projeto, da construção à operação, oferecendo a opção de transferência
-        após a conclusão. ● Projeto Executivo: Elaboração detalhada do projeto
+        após a conclusão. 
+        </p>
+      <p>  
+        ● Projeto Executivo: Elaboração detalhada do projeto
         fotovoltaico, assegurando uma implementação suave e eficaz.
       </p>
+      </div>
       <p>
-        ● Adicionalmente, fornecemos serviços de O&M (Operação e Manutenção)
+        Adicionalmente, fornecemos serviços de O&M (Operação e Manutenção)
         para usinas, visando garantir a máxima eficiência e longevidade na
         produção de energia solar.
       </p>
       <p>
-        ● No âmbito do Mercado Livre, facilitamos a migração de clientes do
+        No âmbito do Mercado Livre, facilitamos a migração de clientes do
         GRUPO A para o Mercado Livre de Energia. Conte com nossa experiência
         para uma transição tranquila e segura, proporcionando controle sobre os
         custos energéticos.
       </p>
-      </div>
       <p>
         Com mais de oito anos de expertise, nosso compromisso é oferecer
         soluções energéticas inovadoras e sustentáveis, alinhadas aos mais

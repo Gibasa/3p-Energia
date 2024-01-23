@@ -4,7 +4,9 @@ import {
   faFacebook,
   faInstagram,
   faLinkedin,
+  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 function Footer() {
   const yearnow = () => {
@@ -22,11 +24,25 @@ function Footer() {
             alt="3p logo"
           />
         </div>
-        <div className="footer-btns">
+        {/* <div className="footer-btns">
           <div className="footer-btns-item">FALE CONOSCO</div>
           <div className="footer-btns-item">FAÇA SEU PROJETO AGORA</div>
-        </div>
+        </div> */}
         <div className="footer-socials">
+        <a
+            href="https://www.facebook.com/3penergiasolar/?locale=pt_BR"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faWhatsapp} className="footer-icon" />
+          </a>
+          <a
+            href="https://www.facebook.com/3penergiasolar/?locale=pt_BR"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faEnvelope} className="footer-icon" />
+          </a>
           <a
             href="https://www.facebook.com/3penergiasolar/?locale=pt_BR"
             target="_blank"

@@ -12,8 +12,8 @@ function Contato() {
           <h2>Nossos dados:</h2>
           <h3>Endereço</h3>
           <p>
-            Av. Oceânica, n° 3638, Edf. Empresarial Qualidados, sala 308 Rio
-            Vermelho Salvador - Bahia - Brasil.
+            Edifício Civil Towers, Rua Arthur de Azevêdo Machado, 1225 - Costa
+            Azul, Salvador - BA, 41760-000
           </p>
           <h3>E-mail</h3>
           <p>comercial@3penergia.com.br</p>
