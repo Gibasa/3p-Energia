@@ -26,12 +26,12 @@ function Footer() {
         </div>
         <div className="footer-btns">
           <div className="footer-btns-item">
-            FALE CONOSCO{" "}
             <FontAwesomeIcon icon={faWhatsapp} className="footer-btns-icon" />
+            FALE CONOSCO{" "}
           </div>
           <div className="footer-btns-item">
-            FAÇA SEU PROJETO AGORA{" "}
             <FontAwesomeIcon icon={faEnvelope} className="footer-btns-icon" />
+            FAÇA SEU PROJETO AGORA{" "}
           </div>
         </div>
         <div className="footer-socials">

@@ -7,32 +7,6 @@ function CarouselComponent() {
   return (
     <div className="carousel-container">
       <Carousel data-bs-theme="dark">
-        {/* <Carousel.Item>
-          <img
-            className="d-block w-100 green-filter"
-            src="https://via.placeholder.com/800x300?text=&bg=f5f5f5"
-            alt="First slide"
-          />
-          <Carousel.Caption className="text-center">
-          <FontAwesomeIcon className="carousel-icon" icon={faQuoteLeft} />
-            <p>
-              Tive o prazer de conhecer a 3P Energia através da indicação de um
-              amigo. Desde o primeiro contato eles foram sempre muito atenciosos
-              e transparentes, nos colocando de forma muito clara como
-              funcionava todo esse mercado e os principais benefícios dessa
-              maravilha que se chama Energia Solar. Busquei o serviço como uma
-              forma de investimento, considerando que o retorno proposto em
-              economia de energia seria muito bom se comparado a qualquer
-              aplicação em Renda Fixa do mercado. Para minha surpresa a geração
-              de Energia tem superado as expectativas da proposta inicial, o que
-              aumenta ainda mais minha satisfação com relação ao retorno
-              financeiro do projeto. O suporte da 3P tem sido excelente, se
-              colocando sempre a disposição e estando com a equipe a postos para
-              qualquer necessidade.
-            </p>
-            <h5>Filipe Moura Vieira</h5>
-          </Carousel.Caption>
-        </Carousel.Item> */}
         <Carousel.Item>
           <img
             className="d-block w-100 green-filter"

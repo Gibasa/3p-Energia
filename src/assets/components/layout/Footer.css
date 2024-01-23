@@ -41,7 +41,7 @@
 
 .footer-btns-item {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-image: url("/3p-Energia/images/botao-footer.png");
   background-size: 100% 100%;
@@ -51,6 +51,7 @@
   color: white;
   font-weight: 600;
   cursor: pointer;
+  gap: 10px;
 }
 
 .footer-btns-icon{
