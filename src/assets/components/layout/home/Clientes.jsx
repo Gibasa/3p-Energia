@@ -24,15 +24,15 @@ function Clientes() {
     };
   }, []);
 
-  // const imagensCarousel = numeros.map((n) => (
-  //   <Carousel.Item key={n}>
-  //     <img
-  //       src={`/3p-Energia/images/clientes/${n}.png`}
-  //       alt={`Imagem ${n}`}
-  //       className="d-block w-100"
-  //     />
-  //   </Carousel.Item>
-  // ));
+  const imagensCarousel = numeros.map((n) => (
+    <Carousel.Item key={n}>
+      <img
+        src={`/3p-Energia/images/clientes/${n}.png`}
+        alt={`Imagem ${n}`}
+        className="d-block w-100 h-100"
+      />
+    </Carousel.Item>
+  ));
   const imagens = numeros.map((n) => (    
       <img
       key={n}
@@ -46,7 +46,7 @@ function Clientes() {
     <div className="clientes">
       <h2>Nossos Clientes:</h2>
       <div className="clientes-images">
-        {isMobile ? <Carousel>{}</Carousel> : imagens}
+        {isMobile ? <Carousel>{imagensCarousel}</Carousel> : imagens}
       </div>
     </div>
   );

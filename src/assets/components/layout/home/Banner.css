@@ -1,10 +1,10 @@
 .banner {
   height: 70vh;
   background-image: linear-gradient(
-      rgba(4, 112, 96, 0.5),
-      rgba(4, 112, 96, 0.5)
+      rgba(4, 112, 96, 0.4),
+      rgba(4, 112, 96, 0.4)
     ),
-    url("/3p-Energia/images/pexels-red-zeppelin-4148472.jpg");
+    url("/3p-Energia/images/3P.2023.12 - FOTO HOME.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;

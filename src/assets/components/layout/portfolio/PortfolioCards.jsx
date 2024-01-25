@@ -10,7 +10,7 @@ function PortfolioCards() {
     {
       id: 1,
       image: "/3p-Energia/images/portfolio/p1.png",
-      h3: "Usina PE II",
+      h3: "EPC (UFVS)",
       p1: "1 Instalação",
       p2: "3.402,00 MWp",
     },
@@ -52,7 +52,7 @@ function PortfolioCards() {
     {
       id: 7,
       image: "/3p-Energia/images/portfolio/p7.png",
-      h3: "Usinas de Solo",
+      h3: "Usinas de Micro Geração",
       p1: "9 Instalações",
       p2: "480,55 MWp",
     },

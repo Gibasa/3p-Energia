@@ -18,9 +18,10 @@
   .clientes {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:start;
     align-items: center;
     padding: 50px;
+    height: 50vh;
   }
 
   .clientes h2 {
@@ -38,11 +39,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 60px;
     padding-top: 40px;
-    width: 100%;
   }
+
+  .carousel-item img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none;
+  }
+
 }
 
 @media (min-width: 600px) and (max-width: 899px) {

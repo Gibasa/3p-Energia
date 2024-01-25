@@ -5,6 +5,7 @@
   align-items: center;
   z-index: 2;
   margin-top: 10vh;
+  text-align: center;
 }
 .portfolio-cards img {
   height: 30vh;
@@ -32,10 +33,13 @@
   width: 80%;
   background-image: url("/3p-Energia/images/botao-portfolio.png");
   background-size: 100% 100%;
-  width: 80%;
+  width: 90%;
   color: #047060;
-  padding: 1rem;
+  padding: 0.8rem;
   z-index: 3;
+}
+.portfolio-cards-text h3{
+  font-size: 1.4rem;
 }
 
 .portfolio-cards-text:hover h3 {
@@ -47,6 +51,10 @@
   gap: 1rem;
   padding-top: 1rem;
   color: #047060;
+}
+
+.portfolio-cards-data p{
+  font-size: 0.95rem;
 }
 
 .portfolio-cards-item:hover img {
@@ -69,9 +77,16 @@
 }
 
 @media (min-width: 600px) and (max-width: 899px) {
+  .portfolio-cards{
+    text-align: center;
+  }
 }
 
 @media (min-width: 900px) and (max-width: 1199px) {
+  .portfolio-cards{
+    text-align: center;
+  }
+
   .portfolio-cards-data{
     gap: 1rem;
   }
