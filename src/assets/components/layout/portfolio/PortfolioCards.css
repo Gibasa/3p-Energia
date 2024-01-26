@@ -42,7 +42,13 @@
   font-size: 1.4rem;
 }
 
-.portfolio-cards-text:hover h3 {
+.portfolio-cards-text h4{
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+
+.portfolio-cards-text:hover h3, .portfolio-cards-text:hover h4 {
   color: #bd791a;
 }
 

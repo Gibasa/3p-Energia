@@ -18,6 +18,7 @@ function PortfolioCards() {
       id: 2,
       image: "/3p-Energia/images/portfolio/p2.png",
       h3: "Projeto Bônus Solar",
+      h4: "(parceria Neoenergia)",
       p1: "614 Instalações",
       p2: "2.521,86 MWp",
     },
@@ -100,6 +101,7 @@ function PortfolioCards() {
           <img src={item.image} alt="" />
           <div className="portfolio-cards-text">
             <h3>{item.h3}</h3>
+            <h4>{item.h4}</h4>
             <div className="portfolio-cards-data">
               <FontAwesomeIcon icon={faSolarPanel} />
               <p>{item.p1}</p>
