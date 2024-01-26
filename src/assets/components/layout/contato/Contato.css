@@ -8,10 +8,15 @@
 
 .contato-text{
     width: 50%;
+    padding-top: 20vh;
 }
 
-.contato-text h2, .contato-text h3, .contato-text p{
+.contato-text h3, .contato-text p{
     color: #047060;
+}
+
+.contato-text p{
+    width: 50%;
 }
 @media (max-width: 599px) {
     .contato{

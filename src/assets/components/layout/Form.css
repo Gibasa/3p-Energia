@@ -1,0 +1,121 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0px 0px 0px;
+  padding: 20px;
+  background-color: #bd791a;
+  justify-content: center;
+  align-items: left;
+  color: white;
+}
+
+.form h2 {
+  text-align: center;
+  padding-left: 20;
+}
+.form-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 10px 1.3vw;
+
+}
+
+.form-group input[type="text"], .form-group input[type="email"]{
+    width: 33vw;    
+    border: none;
+    border-radius: 3px;
+    height: 35px;
+    display: flex;
+    padding-left: 10px;
+}
+
+.form-group label{
+    padding-bottom: 10px;
+}
+
+.form-group textarea {
+    width: 68.7vw;
+    border: none;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+
+.form-group-a, .form-group-b{
+    display: flex;
+}
+
+.form-group input{
+    width: 80%;
+}
+
+.form-item {
+  width: 50%;
+  padding: 10px;
+}
+
+.form-item:last-child {
+  width: 100%;
+}
+
+.form-btn {
+  background-image: url("/3p-Energia/images/BOTÃO 3P.png");
+  background-size: cover;
+  width: 10vw;
+  text-align: center;
+  cursor: pointer;
+  padding: 0.2rem;
+  text-decoration: none;
+  border: none;
+  color: white;
+  background-color: #bd791a;
+}
+
+.form-btn:hover {
+  background-image: url("/3p-Energia/images/BOTÃO 3P claro.png");
+}
+
+@media (max-width: 599px) {
+  .form-btn {
+    width: 15vw;
+  }
+
+  .form {
+    margin: 0;
+  }
+
+  .form-group input[type="text"], .form-group input[type="email"]{
+    width: 42vw; 
+  }
+  .form-group textarea {
+    width: 87vw;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .form-btn {
+    width: 15vw;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .portfolio-btn {
+    width: 10vw;
+  }
+}
+
+@media (max-width: 991px) {
+  .portfolio-form {
+    margin: 80px 10px 10px 10px;
+  }
+}

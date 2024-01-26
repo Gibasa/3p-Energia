@@ -16,14 +16,10 @@
 
 .portfolio-header h2{
     font-size: 3.5rem;
+    text-decoration: underline;
+    text-decoration-color: #bd791a;
+    text-underline-offset: 20px;
 }
-.portfolio-line{
-    width: 12vw;
-    height: 4px;
-    background-color: #bd791a;
-}
-
-
 
 @media (max-width: 991px) {
     .portfolio-header{

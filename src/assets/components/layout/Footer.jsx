@@ -6,6 +6,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { useNavigate } from "react-router-dom";
 
 function Footer() {
   const yearnow = () => {
@@ -13,6 +14,11 @@ function Footer() {
     const currentYear = date.getFullYear();
     console.log(currentYear);
     return currentYear;
+  };
+  const navigate = useNavigate();
+
+  const goTo = () => {
+    navigate("/contato");
   };
   return (
     <div className="footer">
@@ -24,7 +30,7 @@ function Footer() {
           />
         </div>
         <div className="footer-btns">
-          <div className="footer-btns-item">
+          <div className="footer-btns-item" onClick={goTo}>
             <FontAwesomeIcon icon={faEnvelope} className="footer-btns-icon" />
             SOLICITE UM ORÇAMENTO{" "}
           </div>

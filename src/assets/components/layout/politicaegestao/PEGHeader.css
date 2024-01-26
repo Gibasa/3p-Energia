@@ -14,12 +14,11 @@
 
 .PEG-header h2 {
   font-size: 3.5rem;
+  text-decoration: underline;
+    text-decoration-color: #bd791a;
+    text-underline-offset: 20px;
 }
-.PEG-line {
-  width: 20vw;
-  height: 4px;
-  background-color: #bd791a;
-}
+
 
 @media (max-width: 599px) {
   .PEG-header {

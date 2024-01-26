@@ -1,5 +1,6 @@
 import "./PEGContent.css";
-import { Accordion, Form} from "react-bootstrap";
+import Form from "../Form"
+import { Accordion } from "react-bootstrap";
 
 function PEGContent() {
   return (
@@ -158,16 +159,18 @@ function PEGContent() {
               <Accordion.Header>Conhecimento</Accordion.Header>
               <Accordion.Body>
                 <p>
-                  1. Produção de Relatórios Técnicos e Procedimentos Executivos
-                  elaborados pela própria equipe técnica da empresa <br /> 2.
-                  Promoção e investimento de treinamentos com estímulo à
-                  multiplicação do conhecimento com toda empresa <br /> 3.
-                  Compartilhamento de arquivos e documentos através dos sistemas
-                  de dados da empresa <br /> 4. Registro histórico dos índices
-                  de produtividade de todas instalações realizadas <br /> 5.
-                  Registro de Relatório Diário de Obra pelos líderes de campo
-                  compartilhado com o setor de planejamento para
-                  retroalimentação de premissas, controle e acompanhamento
+                  1. Elaboração de Relatórios Técnicos e Procedimentos
+                  Executivos pela equipe técnica interna da empresa;
+                  <br /> 2. Investimento e promoção de treinamentos para
+                  impulsionar a disseminação do conhecimento em toda a
+                  organização;
+                  <br /> 3. Compartilhamento eficiente de arquivos e documentos
+                  por meio dos sistemas de gestão de dados da empresa;
+                  <br /> 4. Manutenção de um histórico detalhado dos índices de
+                  produtividade de todas as instalações realizadas;
+                  <br /> 5. Registro diário de atividades pelos líderes de
+                  campo, compartilhado com o setor de planejamento para
+                  retroalimentação, controle e acompanhamento.
                 </p>
               </Accordion.Body>
             </Accordion.Item>
@@ -179,60 +182,21 @@ function PEGContent() {
               <Accordion.Header>Indicadores</Accordion.Header>
               <Accordion.Body>
                 <p>
-                  1. Reunião mensal, a cada segunda sexta-feira do mês, no
-                  período da tarde <br /> 2. Apresentados indicadores de
-                  performance de todos os setores da empresa <br /> 3.
-                  Participam da reunião sócios, cargos gerenciais, colaboradores
-                  e estagiários <br /> 4. É aberto um espaço para discussão e
-                  brainstorm entre os agentes para melhoria geral do processo
+                  1. Realização de reuniões mensais, ocorrendo a cada segunda
+                  sexta-feira do mês, no período da tarde;
+                  <br /> 2. Apresentação dos indicadores de performance de todos
+                  os setores da empresa durante as reuniões;
+                  <br /> 3. Participação ativa na reunião de sócios, cargos
+                  gerenciais, colaboradores e estagiários;
+                  <br /> 4. Incentivo à discussão e ao brainstorming entre os
+                  participantes, visando melhorias gerais nos processos.
                 </p>
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
         </div>
       </div>
-      <div className="PEGContent-11">
-        <Form className="PEGContent-11-form">
-          <h2>Solicite nosso portfólio completo!</h2>
-          <div className="PEGContent-11-form-form">
-            <Form.Group
-              className="mb-3 PEGContent-11-form-group"
-              controlId="formBasicEmail"
-            >
-              <div className="PEGContent-11-form-item">
-                <Form.Label>Nome</Form.Label>
-                <Form.Control type="email" placeholder="Digite seu nome" />
-              </div>
-              <div className="PEGContent-11-form-item">
-                <Form.Label>Email</Form.Label>
-                <Form.Control type="email" placeholder="Digite seu email" />
-              </div>
-              <div className="PEGContent-11-form-item">
-                <Form.Label>Telefone</Form.Label>
-                <Form.Control type="email" placeholder="Digite seu telefone" />
-              </div>
-              <div className="PEGContent-11-form-item">
-                <Form.Label>Empresa</Form.Label>
-                <Form.Control type="email" placeholder="Digite sua empresa" />
-              </div>
-              <div className="PEGContent-11-form-item">
-                <Form.Label>Mensagem</Form.Label>
-                <Form.Control
-                  as="textarea"
-                  rows={4}
-                  placeholder="Digite sua mensagem"
-                />
-              </div>
-            </Form.Group>
-            <div
-              className="PEGContent-11-btn"
-              type="submit"
-            >
-              Enviar
-            </div>
-          </div>
-        </Form>
-      </div>
+      <Form/>
     </div>
   );
 }

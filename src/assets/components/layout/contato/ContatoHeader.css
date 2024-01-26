@@ -7,8 +7,7 @@
     height: 150px;
     color: #047060;    
     position: relative;
-    top: 13vh;
-    width: 100%;
+    top: 13vh; 
     height: 20vh;
     z-index: 1;
 }
@@ -16,11 +15,9 @@
 
 .contato-header h2{
     font-size: 3.5rem;
-}
-.contato-line{
-    width: 8vw;
-    height: 4px;
-    background-color: #bd791a;
+    text-decoration: underline;
+    text-decoration-color: #bd791a;
+    text-underline-offset: 20px;
 }
 
 @media (max-width: 991px) {

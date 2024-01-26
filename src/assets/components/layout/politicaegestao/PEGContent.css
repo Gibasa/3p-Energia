@@ -70,15 +70,8 @@
   gap: 1vw;
 }
 
-.PEGContent-2-p:first-child {
-  background-image: url("/3p-Energia/images/botao 11.png");
-  background-size: 100% 100%;
-  color: #047060;
-  font-weight: 600;
-}
-
 .PEGContent-2-p {
-  background-image: url("/3p-Energia/images/botao 12.png");
+  background-image: url("/3p-Energia/images/botao 11.png");
   background-size: 100% 100%;
   width: calc(100% / 5);
   height: 20vh;
@@ -86,7 +79,7 @@
   justify-content: center;
   align-items: center;
   transition: background-color 0.5s ease;
-  color: #bd791a;
+  color: #047060;
   font-weight: 600;
 }
 

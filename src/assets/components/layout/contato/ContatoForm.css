@@ -5,7 +5,23 @@
 
 .contato-form-item {
   padding-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 10px;
+  color: #047060;
 }
+
+.contato-form-item input[type="text"], .contato-form-item input[type="email"], .contato-form-item input[type="tel"]{
+  border: 1px solid #047060;
+  padding: 5px;
+}
+
+.contato-form-item textarea{
+  border: 1px solid #047060;
+  padding: 5px;
+}
+
 .contato-btn {
   background-image: url("/3p-Energia/images/BOTÃO 3P.png");
   background-size: cover;
@@ -14,6 +30,8 @@
   cursor: pointer;
   padding: 0.2rem;
   color: white;
+  border: none;
+  background-color: white;
 }
 
 .contato-btn:hover {
@@ -32,7 +50,7 @@
 
 @media (max-width: 599px) {
   .contato-form {
-    width: 50%;
+    width: 80%;
   }
 
   .contato-form-item {
@@ -45,7 +63,7 @@
 
 @media (min-width: 600px) and (max-width: 899px) {
   .contato-form {
-    width: 50%;
+    width: 80%;
   }
 
   .contato-form-item {

@@ -2,7 +2,7 @@ import "./QuemSomos.css";
 
 function QuemSomos() {
   return (
-    <div className="quemSomos">
+    <div className="quemSomos" id="quemSomos">
       <img src="/3p-Energia/images/3P-ENERGIA-VERTICAL-COLORIDO.png" alt="" />
       <div className="text">
         <h2>Quem Somos </h2>
