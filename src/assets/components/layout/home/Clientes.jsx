@@ -46,7 +46,7 @@ function Clientes() {
     <div className="clientes">
       <h2>Nossos Clientes:</h2>
       <div className="clientes-images">
-        {isMobile ? <Carousel>{imagensCarousel}</Carousel> : imagens}
+        {isMobile ? <Carousel interval={2000}>{imagensCarousel}</Carousel> : imagens}
       </div>
     </div>
   );

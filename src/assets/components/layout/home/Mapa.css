@@ -4,14 +4,13 @@
   align-items: center;
   width: 100%;
   background-color: #f0f0f0;
-  padding: 60px;
+  padding: 4.25vw 60px;
   gap: 100px;
 }
 
 .text-map {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 }
 
 .map-text img {
@@ -205,7 +204,7 @@
   .text-map {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    gap: 0px;
   }
 
   .map-text img {
@@ -218,7 +217,7 @@
 
   .map-text h2 {
     font-size: 2.5rem;
-    padding: 5px 0 30px 0;
+    padding: 0px 0 30px 0;
     color: #047060;
     width: 80%;
   }

@@ -1,9 +1,6 @@
 .banner {
   height: 70vh;
-  background-image: linear-gradient(
-      rgba(4, 112, 96, 0.4),
-      rgba(4, 112, 96, 0.4)
-    ),
+  background-image: 
     url("/3p-Energia/images/3P.2023.12 - FOTO HOME.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,34 +9,56 @@
   color: white;
   justify-content: center;
   align-items: left;
-  padding-left: 150px;
   width: 100%;
   z-index: 1;
 }
 
 .banner h2 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: bold;
+  color: white;
+  margin: 20px 0 20px 0px;
+}
+
+.banner-box{
+  background-color: #bd791a;
+  width: 33vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  position: absolute;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .home-btn {
-  background-image: url("/3p-Energia/images/BOTÃO 3P.png");
-  background-size: cover;
-  width: 10vw;
+  /* background-image: url("/3p-Energia/images/BOTÃO 3P.png");
+  background-size: cover; */
+  background-color: #047060;
+  width: 20%;
   color: white;
-  font-size: larger;
+  font-size: 1rem;
   font-weight: bold;
-  padding: 10px 10px 10px 40px;
-  margin-top: 30px;
+  padding: 5px 30px 5px 30px;
   z-index: 2;
   cursor: pointer;
+  text-align: center;
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 6%;
 }
 
 .home-btn:hover {
-  background-image: url("/3p-Energia/images/BOTÃO 3P claro.png");
+  background-color: #5de280;
+  
 }
 
-@media (max-width: 599px) {
+@media (max-width: 320px){
+  .banner-box{
+    width: 40vw;
+  }
+
   .banner {
     justify-content: center;
     align-items: center;
@@ -47,12 +66,40 @@
   }
   .banner h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
+    
   }
 
   .home-btn {
+    margin-left: 0;
+    margin-top: 150px;
+    font-size: 0.8rem;
+    padding: 5px 0;
+    width: 30%;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 599px) {
+  .banner-box{
     width: 40vw;
+  }
+  .banner {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .banner h2 {
     text-align: center;
+    font-size: 1rem;
+    
+  }
+
+  .home-btn {
+    margin-left: 0;
+    margin-top: 150px;
+    font-size: 0.8rem;
+    padding: 5px 0;
+    width: 30%;
   }
 }
 
@@ -62,14 +109,20 @@
     align-items: center;
     padding: 0;
   }
+
+  .banner-box{
+    width: 40vw;
+  }
   .banner h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .home-btn {
-    width: 30vw;
-    text-align: center;
+    margin-left: 0;
+    margin-top: 160px;
+    font-size: 0.8rem;
+    padding: 5px 0;
   }
 }
 
@@ -81,18 +134,13 @@
   }
   .banner h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    width: 80%;
   }
 
   .home-btn {
-    width: 20vw;
-    text-align: center;
+    margin-left: 0;
+    margin-top: 160px;
   }
 }
 
-@media (min-width: 1200px) {
-  .home-btn {
-    width: 15vw;
-    text-align: center;
-  }
-}

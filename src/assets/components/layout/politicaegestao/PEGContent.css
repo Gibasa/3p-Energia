@@ -18,7 +18,7 @@
 .PEGContent-11,
 .PEGContent-12 {
   color: #047060;
-  margin: 10vh 10vw 10vh 10vw;
+  margin: 4.25vw 10vw 0vh 10vw;
 }
 
 .PEGContent-1 h2,
@@ -63,11 +63,16 @@
   width: 50%;
 }
 
+.PEGContent-1 p{
+  padding-top: 10px;
+}
+
 .PEGContent-2 {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1vw;
+  padding-bottom: 20px;
 }
 
 .PEGContent-2-p {
@@ -98,16 +103,14 @@
   margin: 0;
   margin-bottom: 6rem;
   background-color: #f0f0f0;
-  padding: 10vh 0;
+  padding: 4.25vw 0;
 }
 
 .PEGContent-3-text {
-  padding-top: 6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  margin: 2rem;
 }
 
 .PEGContent-3-text h2,
@@ -162,7 +165,6 @@
 
 .PEGContent-5-text {
   width: 70%;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -339,6 +341,7 @@
   .PEGContent-2-p {
     width: 100%;
     font-size: 1rem;
+    line-height: 20px;
   }
 
   .PEGContent-3{

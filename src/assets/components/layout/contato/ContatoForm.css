@@ -51,6 +51,7 @@
 @media (max-width: 599px) {
   .contato-form {
     width: 80%;
+    margin-top: 10vh;
   }
 
   .contato-form-item {

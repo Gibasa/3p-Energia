@@ -140,12 +140,15 @@
   }
 
   .footer-btns-item {
-    width: 80%;
+    width: 90%;
     padding: 10px;
   }
 
   .footer-copyright {
     text-align: center;
+    padding: 0 20px;
+    margin-bottom: 0;
+    font-size: 0.8rem;
   }
 
   .footer-contact {

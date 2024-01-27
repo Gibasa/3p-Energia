@@ -1,5 +1,6 @@
 .servicos {
-  margin: 6.25vw 20vw;
+  padding-top: 4.25vw;
+  background-color: #f0f0f0;
 }
 
 .servicos h3 {
@@ -80,7 +81,7 @@
 /* Medium devices (between 600px and 900px) */
 @media (max-width: 599px) {
   .servicos {
-    margin: 50px 20px;
+    padding: 50px 50px;
   }
 
   .servicos p{
@@ -166,9 +167,7 @@
 }
 
 @media (min-width: 1200px) {
-  .servicos {
-    margin: 6.25vw 2vw;
-  }
+
 
   .servico {
     justify-content: center;

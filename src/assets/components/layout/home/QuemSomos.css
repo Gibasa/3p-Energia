@@ -3,8 +3,8 @@
     justify-content: center;
     align-items: center;
     gap: 80px;
-    padding: 180px 0;
-    background-color: #f0f0f0;
+    padding: 4.25vw 0;
+    background-color: white;
     width: 100%;
 }
 
@@ -28,12 +28,19 @@
     font-weight: 500;
     color: #047060;
 }
+@media (max-width: 599px) {
+    
+    .quemSomos img{
+        padding-bottom: 0;
+        padding-top: 20px;
+    }
+}
 
 @media (max-width: 991px) {
     .quemSomos{
         flex-direction: column;
         margin: 0;
-        gap: 40px;
+        gap: 12px;
     }
     .quemSomos img {
         height: 20vh;

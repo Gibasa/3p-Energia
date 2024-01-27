@@ -10,15 +10,14 @@ function PortfolioCards() {
     {
       id: 1,
       image: "/3p-Energia/images/portfolio/p1.png",
-      h3: "EPC (UFVS)",
-      p1: "1 Instalação",
-      p2: "3.402,00 MWp",
+      h3: "EPC BOS",
+      p1: "16 Instalações",
+      p2: "42,7 MWp",
     },
     {
       id: 2,
       image: "/3p-Energia/images/portfolio/p2.png",
       h3: "Projeto Bônus Solar",
-      h4: "(parceria Neoenergia)",
       p1: "614 Instalações",
       p2: "2.521,86 MWp",
     },
@@ -101,7 +100,6 @@ function PortfolioCards() {
           <img src={item.image} alt="" />
           <div className="portfolio-cards-text">
             <h3>{item.h3}</h3>
-            <h4>{item.h4}</h4>
             <div className="portfolio-cards-data">
               <FontAwesomeIcon icon={faSolarPanel} />
               <p>{item.p1}</p>

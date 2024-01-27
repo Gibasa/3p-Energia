@@ -11,7 +11,7 @@ import "./Servicos.css";
 function Servicos() {
   return (
     <div className="servicos">
-      <h3>Serviços</h3>
+      <h3>Nossos Serviços</h3>
       <div className="servicos-about">
         <p>
           A 3P Energia se destaca na execução de projetos fotovoltaicos em

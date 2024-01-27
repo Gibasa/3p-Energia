@@ -73,12 +73,11 @@ function PEGContent() {
             </Accordion>
           </div>
         </div>
-        <img src="/3p-Energia/images/figurante.png" alt="" />
       </div>
 
       <div className="PEGContent-5">
         <div className="PEGContent-5-text">
-          <h2>Responsabilidade Ambiental e Social (ESG)</h2>
+          <h2>Responsabilidade Ambiental <br/> e Social (ESG)</h2>
           <p>
             A Política ESG da 3P Energia inclui princípios e procedimentos de
             negócios que alinham as decisões estratégicas e atividades

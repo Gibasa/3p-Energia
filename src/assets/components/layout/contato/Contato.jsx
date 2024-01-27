@@ -7,7 +7,7 @@ function Contato() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []); // Sem dependências
-  
+
   return (
     <div>
       <ContatoHeader />
@@ -16,8 +16,8 @@ function Contato() {
         <div className="contato-text">
           <h3>Endereço</h3>
           <p>
-            Edifício Civil Towers, Rua Arthur de Azevêdo Machado, 1225 - Costa
-            Azul, Salvador - BA, 41760-000
+            Edifício Civil Towers, Torre Nimbus - 14º andar, Rua Arthur de
+            Azevêdo Machado, 1225 - Costa Azul, Salvador - BA, 41760-000
           </p>
           <h3>E-mail</h3>
           <p>contato@3penergia.com.br</p>

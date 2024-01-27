@@ -20,7 +20,11 @@
     text-decoration-color: #bd791a;
     text-underline-offset: 20px;
 }
-
+@media (max-width: 599px) {
+    .portfolio-header h2{
+        font-size: 2rem;
+    }
+}
 @media (max-width: 991px) {
     .portfolio-header{
         align-items: center;

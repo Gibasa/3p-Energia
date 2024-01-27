@@ -1,7 +1,7 @@
 .clientes {
   display: flex;
   flex-direction: column;
-  padding: 180px;
+  padding: 4.25vw;
 }
 
 .clientes h2 {
@@ -20,8 +20,8 @@
     flex-direction: column;
     justify-content:start;
     align-items: center;
-    padding: 50px;
-    height: 50vh;
+    padding: 50px 50px 0 50px;
+    height: 45vh;
   }
 
   .clientes h2 {
@@ -33,15 +33,21 @@
     width: auto;
     height: auto;
     margin: 0;
+    align-self: center;
+    justify-self: center;
   }
 
   .clientes-images {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 60px;
     padding-top: 40px;
+  }
+  .carousel-inner{
+    display: flex;
+    align-content: center;
   }
 
   .carousel-item img {
@@ -119,7 +125,7 @@
   .clientes {
     display: flex;
     flex-direction: column;
-    padding: 130px;
+    padding: 4.25vw 130px;
   }
 
   .clientes h2 {
