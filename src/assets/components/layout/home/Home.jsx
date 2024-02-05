@@ -17,8 +17,8 @@ function Home(){
     return(
         <div className="home">
             <Banner />
-            <Servicos/>
             <QuemSomos/>
+            <Servicos/>
             {/* <Linha /> */}
             <Mapa/>
             <Clientes/>
