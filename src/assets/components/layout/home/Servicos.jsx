@@ -1,11 +1,11 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHelmetSafety,
-  faSolarPanel,
-  faPeopleCarryBox,
-  faScrewdriverWrench,
-  faBarsStaggered,
-} from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faHelmetSafety,
+//   faSolarPanel,
+//   faPeopleCarryBox,
+//   faScrewdriverWrench,
+//   faBarsStaggered,
+// } from "@fortawesome/free-solid-svg-icons";
 import "./Servicos.css";
 import ServicosCards from "./ServicosCards";
 
@@ -16,7 +16,7 @@ function Servicos() {
       <div className="servicos-about">        
         <ServicosCards/>
       </div>
-      <div className="servicos-container">
+      {/* <div className="servicos-container">
         <div className="servico top">
           <FontAwesomeIcon className="icon" icon={faBarsStaggered} />
           <div className="servico-text">
@@ -43,7 +43,7 @@ function Servicos() {
           <FontAwesomeIcon className="icon" icon={faHelmetSafety} />
           <div className="servico-text">Engenharia do Proprietário</div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

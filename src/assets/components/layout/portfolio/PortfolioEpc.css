@@ -1,0 +1,26 @@
+.portfolio-epc img {
+  height: auto;
+  position: relative;
+  transition: transform 0.2s ease;
+  z-index: 2;
+  width: 380px;
+}
+
+.portfolio-epc-cards-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 90%;
+  background-image: url("/3p-Energia/images/botao-portfolio.png");
+  background-size: 100% 100%;
+  width: 90%;
+  color: #047060;
+  padding: 0.8rem;
+  z-index: 3;
+}
+
+.portfolio-epc-cards-text h3 {
+  font-size: 1.2rem;
+}
