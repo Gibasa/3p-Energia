@@ -1,4 +1,4 @@
-.quemSomos{
+.quem-somos{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,9 +8,9 @@
     width: 100%;
 }
 
-.quemSomos img {
-    height: 230px;
-    padding-bottom: 20px;
+.quem-somos img {
+    height: 40vh;
+    padding-bottom: 30px;
 }
 
 .text{
@@ -30,19 +30,18 @@
 }
 @media (max-width: 599px) {
     
-    .quemSomos img{
-        padding-bottom: 0;
-        padding-top: 20px;
+    .quem-somos img{
+        margin: 20px 0 20px 0;
     }
 }
 
 @media (max-width: 991px) {
-    .quemSomos{
+    .quem-somos{
         flex-direction: column;
         margin: 0;
         gap: 12px;
     }
-    .quemSomos img {
+    .quem-somos img {
         height: 20vh;
     }
     

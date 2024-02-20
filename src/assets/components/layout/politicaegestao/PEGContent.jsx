@@ -85,10 +85,10 @@ function PEGContent() {
           </p>
         </div>
       </div>
-      <div className="PEGContent-6">
+      {/* <div className="PEGContent-6">
         <h3>Programa 1k10k</h3>
         <p>A cada 1kWp vendido doamos 10kg de alimentos.</p>
-      </div>
+      </div> */}
       <div className="PEGContent-7">
         <div className="PEGContent-7-accordion">
           <Accordion defaultActiveKey="0">
@@ -125,9 +125,7 @@ function PEGContent() {
                   normas brasileiras, sempre prezando pela saúde e bem-estar de
                   todos. Buscamos estabelecer relações de parceria com nossos
                   fornecedores, por isso temos processos de seleção e
-                  desenvolvimento da cadeia de suprimentos. Temos como programa
-                  interno o 1K10K, que a cada 1kWp vendido doamos 10Kg de
-                  alimentos.
+                  desenvolvimento da cadeia de suprimentos. 
                 </p>
               </Accordion.Body>
             </Accordion.Item>

@@ -3,7 +3,6 @@
   position: relative;
   transition: transform 0.2s ease;
   z-index: 2;
-  width: 380px;
 }
 
 .portfolio-epc-cards-text {
@@ -23,4 +22,19 @@
 
 .portfolio-epc-cards-text h3 {
   font-size: 1.2rem;
+}
+
+.portfolio-epc-inversores{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-epc-inversores p{
+  padding: 0;
+  margin: 0;
+}
+
+.inversores{
+  font-weight: 500;
 }

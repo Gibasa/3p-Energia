@@ -30,8 +30,8 @@
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
   grid-row: span 1;
-  margin: 5px;
-  width: 23.4%;
+  margin: 10px;
+  width: 25%;
 }
 
 /* .card:nth-child(5),
@@ -112,7 +112,6 @@
   font-size: 0.9rem;
 }
 
-
 .modal-content-text {
   padding: 0 50px;
 }
@@ -137,6 +136,10 @@
   .card {
     width: 80%;
   }
+
+  .card-title {
+    top: 55%;
+  }
   /* .card:nth-child(5),
   .card:nth-child(6),
   .card:nth-child(7) {
@@ -150,7 +153,7 @@
     font-size: 2.5vw;
     padding: 0;
   }
-  .modal-content-text{
+  .modal-content-text {
     padding: 0 20px;
   }
   .close-button {
@@ -163,7 +166,9 @@
   .servicos-cards {
     padding: 0;
   }
-
+  .card-title {
+    top: 55%;
+  }
   .card-content p {
     font-size: 0.8rem;
   }
@@ -185,7 +190,7 @@
     padding: 0;
   }
 
-  .modal-content-text{
+  .modal-content-text {
     padding: 0 20px;
   }
 
@@ -216,7 +221,7 @@
   .modal-content {
     font-size: 0.7rem;
   }
-  .modal-content-text{
+  .modal-content-text {
     padding: 0 20px;
   }
 }

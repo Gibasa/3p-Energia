@@ -8,6 +8,7 @@ import "./Header.css"
 
 function Header() {
   const [scrolled, setScrolled] = useState(false);
+  const [expanded, setExpanded] = useState(false)
   const location = useLocation();
   const currentPath = location.pathname;
 
@@ -26,6 +27,18 @@ function Header() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  useEffect(() => {
+    setExpanded(false);
+  }, [currentPath]);
+
+  const handleNavToggle = () => {
+    setExpanded(!expanded); 
+  };
+
+  const handleNavItemClick = () => {
+    setExpanded(false); 
+  };
   
   return (
     <Navbar expand="lg" className={`header-bg ${scrolled ? "scrolled" : ""}`}>
@@ -37,13 +50,13 @@ function Header() {
             alt="3P logo"
           />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className="header-toggle" />
-        <Navbar.Collapse id="basic-navbar-nav ">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="header-toggle" onClick={handleNavToggle} />
+        <Navbar.Collapse id="basic-navbar-nav" in={expanded}>
           <Nav className="mx-auto header-links">
-            <Nav.Link as={Link} className={`header-link ${currentPath === '/' ? 'active' : ''}`} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} className={`header-link ${currentPath === '/portfolio' ? 'active' : ''}`} to="/portfolio">Portfólio</Nav.Link>            
-            <Nav.Link as={Link} className={`header-link ${currentPath === '/politicaegestao' ? 'active' : ''}`} to="/politicaegestao">Política e Gestão</Nav.Link>            
-            <Nav.Link as={Link} className={`header-link ${currentPath === '/contato' ? 'active' : ''}`} to="/contato">Contato</Nav.Link>  
+            <Nav.Link as={Link} className={`header-link ${currentPath === '/' ? 'active' : ''}`} to="/" onClick={handleNavItemClick}>Home</Nav.Link>
+            <Nav.Link as={Link} className={`header-link ${currentPath === '/portfolio' ? 'active' : ''}`} to="/portfolio" onClick={handleNavItemClick} >Portfólio</Nav.Link>            
+            <Nav.Link as={Link} className={`header-link ${currentPath === '/politicaegestao' ? 'active' : ''}`} to="/politicaegestao" onClick={handleNavItemClick} >Política e Gestão</Nav.Link>            
+            <Nav.Link as={Link} className={`header-link ${currentPath === '/contato' ? 'active' : ''}`} to="/contato" onClick={handleNavItemClick} >Contato</Nav.Link>  
           </Nav>       
         </Navbar.Collapse>
       </Container>

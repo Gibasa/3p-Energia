@@ -40,7 +40,7 @@ function Footer() {
             <div
               dangerouslySetInnerHTML={{
                 __html:
-                  '<iframe width="325" height="150" src="https://www.openstreetmap.org/export/embed.html?bbox=-38.4506168961525%2C-12.9903821712143%2C-38.447186350822456%2C-12.988011656068782&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/-12.98920/-38.44890" target="_blank">Ver mapa maior</a></small>',
+                  '<iframe width="325" height="150" src="https://www.openstreetmap.org/export/embed.html?bbox=-38.4506168961525%2C-12.9903821712143%2C-38.447186350822456%2C-12.988011656068782&amp;layer=mapnik" style="border: none"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/-12.98920/-38.44890" target="_blank">Ver mapa maior</a></small>',
               }}
             ></div>
           </div>

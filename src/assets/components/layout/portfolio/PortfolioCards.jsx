@@ -28,7 +28,7 @@ function PortfolioCards() {
           onClick={() => handleLinkClick("diversos")}
         >
           <span></span>
-          <div className="title">DIVERSOS</div>
+          <div className="title">VAREJO</div>
         </div>
       </div>
       <div className="portfolio-content">

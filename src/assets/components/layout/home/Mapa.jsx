@@ -22,13 +22,13 @@ function Mapa() {
             <p className="map-list-title">14</p> <p className="map-list-text">Estados</p>
           </div>
           <div className="map-list-item">
-            <p className="map-list-title">+1.500</p> <p className="map-list-text">Instalações</p>
+            <p className="map-list-title">+1.600</p> <p className="map-list-text">Instalações</p>
           </div>
           <div className="map-list-item">
             <p className="map-list-title">+60MWp</p> <p className="map-list-text">Instalados</p>
           </div>
           <div className="map-list-item">
-            <p className="map-list-title">+200</p> <p className="map-list-text">Colaboradores</p>
+            <p className="map-list-title">+250</p> <p className="map-list-text">Colaboradores</p>
           </div>
         </div>
       </div>

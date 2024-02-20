@@ -30,20 +30,20 @@ function ServicosCards() {
             operação, oferecendo a opção de transferência após a conclusão do
             mesmo.
           </p>
-          <p>
-            <strong>ROOFTOP SOLAR:</strong> Oferecemos uma solução que abrange
-            todo o ciclo do projeto solar, desde o design até a operação,
-            assegurando praticidade e eficácia.
-          </p>
-          <p>
-            <strong>ENGENHARIA DO PROPRIETÁRIO:</strong> Compreendendo todos os
-            estágios do projeto solar, desde o design até a operação, garantimos
-            praticidade e eficácia, incluindo gestão de projetos. Nossa equipe
-            monitora o cronograma e o orçamento para manter o contratante
-            informado sobre o progresso do projeto.
-          </p>
         </>
       ),
+    },
+    {
+      titulo: "Rooftop Solar",
+      imagem: "/3p-Energia/images/servicos/ROOFTOP.jpeg",
+      texto:
+        "Oferecemos uma solução que abrange todo o ciclo do projeto solar, desde o design até a operação, assegurando praticidade e eficácia.",
+    },
+    {
+      titulo: "Engenharia do Proprietário",
+      imagem: "/3p-Energia/images/servicos/ENGENHARIA DO PROPRIETARIO.jpeg",
+      texto:
+        "Compreendendo todos os estágios do projeto solar, desde o design até a operação, garantimos praticidade e eficácia, incluindo gestão de projetos. Nossa equipe monitora o cronograma e o orçamento para manter o contratante informado sobre o progresso do projeto.",
     },
     {
       titulo: "Projetos Executivos",
@@ -61,7 +61,7 @@ function ServicosCards() {
       titulo: "Carregamento Veicular",
       imagem: "/3p-Energia/images/servicos/ELETROMOBILIDADE.jpg",
       texto:
-        "Oferecemos esta solução para condomínios, empresas e shoppings, visando melhorar a infraestrutura de carregamento e promover a adoção de veículos elétricos, contribuindo para a sustentabilidade e mobilidade elétrica. ",
+        "Oferecemos esta solução para condomínios, empresas e shoppings, visando melhorar a infraestrutura de carregamento e promover a adoção de veículos elétricos, contribuindo para a sustentabilidade e mobilidade elétrica.",
     },
   ];
 
@@ -73,9 +73,12 @@ function ServicosCards() {
     setShowModal(true);
   };
 
-  const closeModal = () => {
-    setSelectedServico(null);
-    setShowModal(false);
+  const closeModal = (event) => {
+    if (event.target.classList.contains("modal-overlay") || event.target.classList.contains("close-button")) {
+      setSelectedServico(null);
+      setShowModal(false);
+    }
+    
   };
   return (
     <div className="servicos-cards">
