@@ -9,13 +9,16 @@ function Banner() {
   };
   return (
     <div className="banner">
+      <video muted autoPlay loop poster="./images/3P.2023.12 - FOTO HOME.png" >
+      <source src="./images/banner-video.mp4" type="video/mp4"/>
+    </video>
       <div className="banner-box">
         <h2>
-          ENGENHARIA EM <br/> ENERGIA SOLAR
+          ENGENHARIA EM <br/> ENERGIA
         </h2>
       </div>
         <div className="btn-sm home-btn" onClick={scrollToQuemSomos}>
-          Conheça a 3P
+          <p>Conheça a 3P</p>
         </div>
     </div>
   );

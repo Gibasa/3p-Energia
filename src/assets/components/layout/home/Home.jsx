@@ -6,7 +6,7 @@ import QuemSomos from "./QuemSomos"
 import Mapa from "./Mapa"
 import Clientes from "./Clientes"
 import Video from "./Video"
-import CarouselComponent from "./Carousel"
+// import CarouselComponent from "./Carousel"
 import { useEffect } from "react"
 
 function Home(){
@@ -23,7 +23,7 @@ function Home(){
             <Mapa/>
             <Clientes/>
             <Video/>
-            <CarouselComponent/>
+            {/* <CarouselComponent/> */}
         </div>
     )
 }

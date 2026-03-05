@@ -4,21 +4,17 @@ import "bootstrap/dist/css/bootstrap.min.css"; // Importe os estilos do Bootstra
 import "./Clientes.css";
 
 function Clientes() {
-  const numeros = Array.from({ length: 27 }, (v, i) => i + 1);
+  const numeros = Array.from({ length: 35 }, (v, i) => i + 1);
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 599);
     };
-
-    // Adiciona um listener para redimensionamento de tela
     window.addEventListener("resize", handleResize);
 
-    // Chama handleResize uma vez para definir o estado inicial
     handleResize();
 
-    // Remove o listener ao desmontar o componente
     return () => {
       window.removeEventListener("resize", handleResize);
     };
@@ -27,7 +23,7 @@ function Clientes() {
   const imagensCarousel = numeros.map((n) => (
     <Carousel.Item key={n}>
       <img
-        src={`/3p-Energia/images/clientes/${n}.png`}
+        src={`./images/clientes/${n}.png`}
         alt={`Imagem ${n}`}
         className="d-block w-100 h-100"
       />
@@ -36,7 +32,7 @@ function Clientes() {
   const imagens = numeros.map((n) => (    
       <img
       key={n}
-        src={`/3p-Energia/images/clientes/${n}.png`}
+        src={`./images/clientes/${n}.png`}
         alt={`Imagem ${n}`}
         className="d-block w-100"
       />

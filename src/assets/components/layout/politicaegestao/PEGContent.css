@@ -57,6 +57,7 @@
   align-items: center;
   gap: 3vw;
   margin-top: 0px;
+  margin-bottom: 50px;
 }
 .PEGContent-1 p,
 .PEGContent-1 h2 {
@@ -76,15 +77,14 @@
 }
 
 .PEGContent-2-p {
-  background-image: url("/3p-Energia/images/botao 11.png");
-  background-size: 100% 100%;
+  background-color: #bd791a;
   width: calc(100% / 5);
   height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: background-color 0.5s ease;
-  color: #047060;
+  color: white;
   font-weight: 600;
 }
 
@@ -173,7 +173,7 @@
   justify-content: center;
   align-items: center;
   justify-content: space-around;
-  background-image: url("/3p-Energia/images/botao-comprido.png");
+  background-image: url("/images/botao-comprido.png");
   background-size: 100% 100%;
   width: 80%;
   height: auto;
@@ -224,6 +224,8 @@
 .PEGContent-7 p {
   grid-column: 1 / span 1;
   color: #047060;
+  font-size: 1rem;
+  margin-top: 20px;
 }
 
 .PEGContent-8 {
@@ -256,6 +258,8 @@
 
 .PEGContent-10 p {
   color: #047060;
+  margin-top: 20px;
+  font-size: 1rem;
 }
 
 .PEGContent-11 {
@@ -276,7 +280,6 @@
   padding: 2rem;
   background-color: #bd791a;
   justify-content: center;
-  align-items: c;
   color: white;
 }
 
@@ -304,7 +307,7 @@
 }
 
 .PEGContent-11-btn {
-  background-image: url("/3p-Energia/images/BOTÃO 3P.png");
+  background-image: url("/images/BOTÃO 3P.png");
   background-size: cover;
   width: 10vw;
   text-align: center;
@@ -313,7 +316,7 @@
 }
 
 .PEGContent-11-btn:hover{
-  background-image: url("/3p-Energia/images/BOTÃO 3P claro.png");
+  background-image: url("/images/BOTÃO 3P claro.png");
 
 }
 

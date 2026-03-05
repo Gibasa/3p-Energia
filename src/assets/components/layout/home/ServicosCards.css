@@ -31,14 +31,8 @@
   transition: transform 0.3s ease-in-out;
   grid-row: span 1;
   margin: 10px;
-  width: 25%;
+  width: 23%;
 }
-
-/* .card:nth-child(5),
-.card:nth-child(6),
-.card:nth-child(7) {
-  width: 31.5%;
-} */
 
 .card-title {
   position: absolute;
@@ -50,12 +44,15 @@
   transition: opacity 0.3s ease-in-out;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
 }
 
 .card-title h3 {
   font-size: 1.2rem;
   color: white;
+  background-color: #047060;
+  padding: 10px 16px;
+  border-radius: 8px; 
 }
 
 .card-content {
@@ -140,11 +137,6 @@
   .card-title {
     top: 55%;
   }
-  /* .card:nth-child(5),
-  .card:nth-child(6),
-  .card:nth-child(7) {
-    width: 80%;
-  } */
 
   .modal-overlay {
     top: 55px;
@@ -173,15 +165,9 @@
     font-size: 0.8rem;
   }
   .card {
-    width: 45%;
+    width: 60%;
   }
-  /* .card:nth-child(5),
-  .card:nth-child(6) {
-    width: 45%;
-  }
-  .card:nth-child(7) {
-    width: 91.5%;
-  } */
+
   .modal-overlay {
     top: 55px;
   }
@@ -208,15 +194,8 @@
     font-size: 0.8rem;
   }
   .card {
-    width: 45%;
+    width: 60%;
   }
-  /* .card:nth-child(5),
-  .card:nth-child(6) {
-    width: 45%;
-  }
-  .card:nth-child(7) {
-    width: 91.5%;
-  } */
 
   .modal-content {
     font-size: 0.7rem;
@@ -232,5 +211,8 @@
 
   .card-content p {
     font-size: 0.8rem;
+  }
+  .card {
+    width: 40%;
   }
 }

@@ -20,7 +20,7 @@ function Contato() {
             Azevêdo Machado, 1225 - Costa Azul, Salvador - BA, 41760-000
           </p>
           <h3>E-mail</h3>
-          <p>contato@3penergia.com.br</p>
+          <p>contato@3penergia.com</p>
           <h3>Telefone</h3>
           <p>+55 (71) 3241-5211</p>
         </div>

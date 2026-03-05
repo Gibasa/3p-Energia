@@ -70,7 +70,7 @@
 }
 
 .form-btn {
-  background-image: url("/3p-Energia/images/BOTÃO 3P.png");
+  background-image: url("/images/BOTÃO 3P.png");
   background-size: cover;
   width: 10vw;
   text-align: center;
@@ -83,7 +83,7 @@
 }
 
 .form-btn:hover {
-  background-image: url("/3p-Energia/images/BOTÃO 3P claro.png");
+  background-image: url("/images/BOTÃO 3P claro.png");
 }
 
 @media (max-width: 424px){

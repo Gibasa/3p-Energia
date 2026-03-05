@@ -23,7 +23,7 @@
 }
 
 .contato-btn {
-  background-image: url("/3p-Energia/images/BOTÃO 3P.png");
+  background-image: url("/images/BOTÃO 3P.png");
   background-size: cover;
   width: 10vw;
   text-align: center;
@@ -36,7 +36,7 @@
 }
 
 .contato-btn:hover {
-  background-image: url("/3p-Energia/images/BOTÃO 3P claro.png");
+  background-image: url("/images/BOTÃO 3P claro.png");
 }
 
 .contato-form .form-control{

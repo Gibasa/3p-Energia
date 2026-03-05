@@ -29,7 +29,7 @@
 }
 
 .map-btn {
-  background-image: url("/3p-Energia/images/BOTÃO 3P.png");
+  background-image: url("/images/BOTÃO 3P.png");
   background-size: cover;
   width: 12vw;
   color: white;
@@ -37,8 +37,12 @@
   text-align: center;
   cursor: pointer;
 }
+
+.map-btn p{
+  margin: 0;
+}
 .map-btn:hover {
-    background-image: url("/3p-Energia/images/BOTÃO 3P claro.png");
+    background-image: url("/images/BOTÃO 3P claro.png");
 }
 
 .map-list-item {

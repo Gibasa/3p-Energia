@@ -3,7 +3,7 @@ import reactRefresh from '@vitejs/plugin-react-refresh'
 
 export default defineConfig({
   plugins: [reactRefresh()],
-  base:"/3p-Energia",
+  base:"/",
   esbuild: {
     loader: 'jsx',
     jsxInject: 'import React from "react"'

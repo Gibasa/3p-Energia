@@ -25,7 +25,7 @@
 }
 
 .video-btn {
-  background-image: url("/3p-Energia/images/BOTÃO 3P.png");
+  background-image: url("./images/BOTÃO 3P.png");
   background-size: cover;
   width: 12vw;
   padding: 0.5rem;
@@ -33,8 +33,13 @@
   text-align: center;
   cursor: pointer;
 }
+
+.video-btn p{
+  color: white;
+  margin: 0;
+}
 .video-btn:hover {
-  background-image: url("/3p-Energia/images/BOTÃO 3P claro.png");
+  background-image: url("/images/BOTÃO 3P claro.png");
 }
 
 

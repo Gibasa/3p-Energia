@@ -25,7 +25,7 @@ function Footer() {
       <div className="footer-main">
         <div className="footer-logo">
           <img
-            src="/3p-Energia/images/3p logo branco e laranja.png"
+            src="./images/3p logo branco e laranja.png"
             alt="3p logo"
           />
         </div>

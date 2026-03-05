@@ -51,12 +51,12 @@
 }
 
 .header-logo img {
-  content: url("/3p-Energia/images/3p logo branco e laranja.png");
+  content: url("/images/3p logo branco e laranja.png");
   max-height: 10%;
 }
 
 .header-bg.scrolled .header-logo img {
-  content: url("/3p-Energia/images/REDESIGN 3P ENERGIA COLORIDO.png");
+  content: url("/images/REDESIGN 3P ENERGIA COLORIDO.png");
   max-height: 10%;
 }
 

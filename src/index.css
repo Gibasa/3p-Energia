@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Lato", sans-serif;
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: "Segoe UI", sans-serif;
+    src: url("/3p-Energia/fonts/Segoe UI.woff") format("woff");
+  }
+  
+p, li, a {
+    font-family: "Segoe UI", sans-serif;
+    font-weight: medium;
+  }
