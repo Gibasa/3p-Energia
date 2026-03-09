@@ -12,39 +12,56 @@
   color: #047060;
 }
 
-.contato-form-item input[type="text"], .contato-form-item input[type="email"], .contato-form-item input[type="tel"]{
+.contato-form-item input[type="text"],
+.contato-form-item input[type="email"],
+.contato-form-item input[type="tel"],
+.contato-form-item select {
   border: 1px solid #047060;
   padding: 5px;
+  border-radius: 8px;
 }
 
-.contato-form-item textarea{
+.contato-form-item select {
+  color: #000;
+}
+
+.contato-form-item select:invalid {
+  color: #757575;
+  /* match default placeholder gray */
+}
+
+.contato-form-item select option {
+  color: #000;
+}
+
+.contato-form-item textarea {
   border: 1px solid #047060;
   padding: 5px;
+  border-radius: 8px;
 }
 
 .contato-btn {
-  background-image: url("/images/BOTÃO 3P.png");
-  background-size: cover;
+  background-color: #047060;
+  border: none;
   width: 10vw;
   text-align: center;
   cursor: pointer;
   padding: 0.2rem;
   color: white;
-  border: none;
-  background-color: white;
   margin-top: 10px;
+  border-radius: 8px;
 }
 
 .contato-btn:hover {
-  background-image: url("/images/BOTÃO 3P claro.png");
+  background-color: #5de280;
 }
 
-.contato-form .form-control{
+.contato-form .form-control {
   border: 1px solid #047060;
   border-radius: 0;
 }
 
-.contato-form .form-label{
+.contato-form .form-label {
   color: #047060;
   font-weight: 500;
 }
@@ -58,6 +75,7 @@
   .contato-form-item {
     padding-top: 2vw;
   }
+
   .contato-btn {
     width: 20vw;
   }
@@ -71,6 +89,7 @@
   .contato-form-item {
     padding-top: 2vw;
   }
+
   .contato-btn {
     width: 20vw;
   }

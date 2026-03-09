@@ -17,6 +17,7 @@
   height: 600px;
   padding-right: 100px;
 }
+
 .map-title {
   color: #047060;
 }
@@ -29,20 +30,22 @@
 }
 
 .map-btn {
-  background-image: url("/images/BOTÃO 3P.png");
-  background-size: cover;
+  background-color: #047060;
+  border: none;
   width: 12vw;
   color: white;
   padding: 0.5rem;
   text-align: center;
   cursor: pointer;
+  border-radius: 8px;
 }
 
-.map-btn p{
+.map-btn p {
   margin: 0;
 }
+
 .map-btn:hover {
-    background-image: url("/images/BOTÃO 3P claro.png");
+  background-color: #5de280;
 }
 
 .map-list-item {
@@ -65,7 +68,7 @@
   display: flex;
   color: #047060;
   font-weight: 600;
-  font-size: larger;
+  font-size: 1rem;
   margin-top: 10px;
   gap: 50px;
 }
@@ -85,7 +88,7 @@
 
   .map-text h2 {
     align-self: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .map-btn {
@@ -98,6 +101,7 @@
     justify-content: center;
     margin: 40px 100px;
     gap: 0;
+    font-size: 0.9rem;
   }
 
   .map-list-item {
@@ -107,6 +111,7 @@
   .map-list-title {
     margin-top: 0;
   }
+
   .text-map {
     width: 100%;
     margin: 0;
@@ -129,6 +134,7 @@
 
   .map-text h2 {
     align-self: center;
+    font-size: 2rem;
   }
 
   .map-btn {
@@ -150,6 +156,7 @@
   .map-list-title {
     margin-top: 0;
   }
+
   .text-map {
     width: 100%;
     margin: 0;
@@ -167,6 +174,7 @@
     margin: 0;
     width: 100%;
   }
+
   .map-list {
     flex-wrap: wrap;
     justify-content: center;
@@ -180,6 +188,7 @@
 
   .map-text h2 {
     align-self: center;
+    font-size: 2.2rem;
   }
 
   .map-btn {
@@ -215,6 +224,7 @@
     height: 350px;
     padding-right: 80px;
   }
+
   .map-title {
     color: #047060;
   }

@@ -1,11 +1,15 @@
 import "./Form.css";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 function Form() {
   const form = useRef();
+  const [isSent, setIsSent] = useState(false);
+  const [isSending, setIsSending] = useState(false);
+
   const sendEmail = (e) => {
     e.preventDefault();
+    setIsSending(true);
     emailjs
       .sendForm(
         "formulario",
@@ -16,9 +20,14 @@ function Form() {
       .then(
         (result) => {
           console.log(result.text);
+          setIsSent(true);
+          setIsSending(false);
+          setTimeout(() => setIsSent(false), 5000);
         },
         (error) => {
           console.log(error.text);
+          setIsSending(false);
+          alert("Ocorreu um erro ao enviar a mensagem. Tente novamente mais tarde.");
         }
       );
     e.target.reset();
@@ -79,9 +88,10 @@ function Form() {
             ></textarea>
           </div>
         </div>
-        <button type="submit" className="form-btn">
-          Enviar
+        <button type="submit" className="form-btn" disabled={isSending}>
+          {isSending ? "Enviando..." : "Enviar"}
         </button>
+        {isSent && <p className="success-message" style={{ color: 'white', fontWeight: 'bold', marginTop: '15px', textAlign: 'center' }}>Mensagem enviada com sucesso! Em breve retornaremos o contato.</p>}
       </div>
     </form>
   );

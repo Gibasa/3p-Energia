@@ -5,7 +5,7 @@ import {
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 
 function Footer() {
@@ -27,6 +27,7 @@ function Footer() {
           <img
             src="./images/3p logo branco e laranja.png"
             alt="3p logo"
+            loading="lazy"
           />
         </div>
         <div className="footer-btns">

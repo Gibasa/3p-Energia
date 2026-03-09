@@ -94,7 +94,7 @@ function PortfolioEpc() {
       p1: "1.404,20 kWp",
       p2: "2.380",
       p3: "25 de 200 kW"
-    },    
+    },
     {
       id: 12,
       image: "./images/portfolio/epc/GUAIBA (8).jpeg",
@@ -207,13 +207,13 @@ function PortfolioEpc() {
       p2: "5.800",
       p3: "10 de 250 kW"
     },
-   
+
   ];
   return (
     <div className="portfolio-epc">
       {Object.entries(portfolioEpc).map(([id, item]) => (
         <div className="portfolio-cards-item" key={id}>
-          <img src={item.image} alt="" />
+          <img src={item.image} alt="" loading="lazy" />
           <div className="portfolio-epc-cards-text">
             <h3>{item.h3}</h3>
             <div className="portfolio-cards-data">

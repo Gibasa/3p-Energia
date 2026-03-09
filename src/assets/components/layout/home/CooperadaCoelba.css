@@ -1,0 +1,90 @@
+.cooperada-coelba {
+    background-color: #f0f0f0;
+    /* Light grey background to distinguish section */
+    padding: 4rem 2rem;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.cooperada-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cooperada-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.cooperada-header h2 {
+    font-size: 2.5rem;
+    color: #047060;
+    /* 3P green */
+    margin-bottom: 1rem;
+}
+
+.cooperada-subtitle {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #047060;
+}
+
+.cooperada-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    font-weight: 500;
+    margin: 0 auto;
+    color: #047060;
+
+}
+
+.cooperada-blocks {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.cooperada-block {
+    flex: 1;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    color: #047060;
+
+
+    /* Theme color top border */
+}
+
+.cooperada-footer {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #047060;
+}
+
+@media (max-width: 599px) {
+    .cooperada-header h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .cooperada-blocks {
+        flex-direction: column;
+    }
+
+    .cooperada-header h2 {
+        font-size: 2rem;
+        /* Applies between 600px and 768px */
+    }
+}

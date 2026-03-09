@@ -18,15 +18,16 @@
   font-size: 1.2rem;
   font-weight: 500;
 }
-.servicos-about{
+
+.servicos-about {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.servicos-about-points{
-  flex: 0 0 calc(33.33%-2vw);
+.servicos-about-points {
+  flex: 0 0 calc(33.33% - 2vw);
   margin: 100px 10px;
   display: flex;
   position: relative;
@@ -43,13 +44,13 @@
   padding: 20px 0;
 } */
 
-.servicos-about-points p{
+.servicos-about-points p {
   font-weight: 400;
   font-size: 1rem;
-  
+
 }
 
-.servicos-about-points p{
+.servicos-about-points p {
   text-align: left;
 }
 
@@ -85,16 +86,18 @@
   color: #047060;
   padding-top: 0;
   line-height: 1.2;
+  font-size: 1rem;
 }
 
 @media (max-width: 599px) {
 
-  .servicos p{
+  .servicos p {
     padding: 0;
+    font-size: 1rem;
   }
 
   .servicos h3 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .servico {
@@ -111,6 +114,11 @@
   .servico-text {
     margin-top: 0;
     padding-top: 0;
+    font-size: 0.9rem;
+  }
+
+  .servicos-about-points p {
+    font-size: 0.9rem;
   }
 
   .servicos-container {
@@ -120,9 +128,13 @@
 }
 
 @media (min-width: 600px) and (max-width: 899px) {
- 
-  .servicos p{
+
+  .servicos p {
     padding: 0;
+  }
+
+  .servicos h3 {
+    font-size: 2rem;
   }
 
   .servico {
@@ -148,8 +160,12 @@
 @media (min-width: 900px) and (max-width: 1199px) {
 
 
-  .servicos p{
+  .servicos p {
     padding: 0;
+  }
+
+  .servicos h3 {
+    font-size: 2.2rem;
   }
 
   .servico .icon {
@@ -163,6 +179,7 @@
     padding: 5.5vw 1.25vw 6.25vw 1.25vw;
     background-size: 100% 100%;
   }
+
   .servicos-container {
     flex-wrap: wrap;
     margin: 50px 100px;

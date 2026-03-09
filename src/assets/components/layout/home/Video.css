@@ -1,79 +1,91 @@
-.video {
+.video-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4.25vw;
+  background-color: #f0f0f0;
+  gap: 30px;
+}
+
+.video-header {
+  text-align: center;
+  color: #047060;
+}
+
+.video-header h2 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.video-header p {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.video-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4.25vw;
-  gap: 100px;
-  background-color: #f0f0f0;
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
 }
 
-.video-text {
+.video-box {
+  flex: 1;
+  width: 100%;
+}
+
+.video-box iframe {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.video-btn-container {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.video-text h2 {
-  color: #047060;
-  font-size: 3.5rem;
-  line-height: 20px;
-}
-
-.video-text p {
-  color: #047060;
-  font-weight: 500;
+  justify-content: center;
+  width: 100%;
 }
 
 .video-btn {
-  background-image: url("./images/BOTÃO 3P.png");
-  background-size: cover;
-  width: 12vw;
-  padding: 0.5rem;
+  background-color: #047060;
+  border: none;
+  width: 250px;
+  padding: 0.8rem;
   color: white;
   text-align: center;
   cursor: pointer;
+  border-radius: 8px;
 }
 
-.video-btn p{
+.video-btn p {
   color: white;
   margin: 0;
+  font-weight: bold;
 }
+
 .video-btn:hover {
-  background-image: url("/images/BOTÃO 3P claro.png");
-}
-
-
-@media (max-width: 599px) {
-    .video-btn {
-        width: 40vw;
-    }
-}
-
-@media (min-width: 600px) and (max-width: 899px) {
-    .video-btn {
-        width: 30vw;
-    }
-}
-
-@media (min-width: 900px) and (max-width: 1199px) {
-    .video-btn {
-        width: 25vw;
-    }
+  background-color: #5de280;
 }
 
 @media (max-width: 991px) {
-  .video {
+  .video-container {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
+    gap: 30px;
   }
 
-  .video-text h2,
-  .video-text p {
-    align-self: center;
+  .video-header h2 {
+    font-size: 2.5rem;
   }
-  .video iframe {
-    width: 80vw;
+}
+
+@media (max-width: 599px) {
+  .video-btn {
+    width: 200px;
+  }
+
+  .video-header p {
+    font-size: 1rem;
   }
 }

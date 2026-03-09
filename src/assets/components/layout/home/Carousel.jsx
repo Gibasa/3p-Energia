@@ -9,9 +9,10 @@ function CarouselComponent() {
       <Carousel data-bs-theme="dark">
         <Carousel.Item>
           <img
-            className="d-block w-100 green-filter"
-            src="https://via.placeholder.com/800x300?text=&bg=eee"
+            className="d-block w-100 banner-img"
+            src="./images/banner-novo2.png"
             alt="Second slide"
+            loading="lazy"
           />
           <Carousel.Caption className="text-center">
             <FontAwesomeIcon className="carousel-icon" icon={faQuoteLeft} />

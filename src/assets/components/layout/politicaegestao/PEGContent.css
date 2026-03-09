@@ -33,7 +33,7 @@
 .PEGContent-10 h2,
 .PEGContent-11 h2,
 .PEGContent-12 h2 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 .PEGContent-1 p,
@@ -59,12 +59,13 @@
   margin-top: 0px;
   margin-bottom: 50px;
 }
+
 .PEGContent-1 p,
 .PEGContent-1 h2 {
   width: 50%;
 }
 
-.PEGContent-1 p{
+.PEGContent-1 p {
   padding-top: 10px;
 }
 
@@ -86,6 +87,8 @@
   transition: background-color 0.5s ease;
   color: white;
   font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .PEGContent-2 p {
@@ -93,6 +96,7 @@
   justify-content: center;
   padding: 1rem;
   margin: 0;
+  font-size: 1rem;
 }
 
 .PEGContent-3 {
@@ -147,10 +151,12 @@
 .accordion-item {
   border: none;
 }
+
 .accordion-button:not(.collapsed) {
   background-color: white;
   outline: none;
 }
+
 .accordion-button:focus {
   box-shadow: none;
 }
@@ -179,10 +185,17 @@
   height: auto;
   padding: 1rem;
   margin: 0 10vw;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 .PEGContent-6 p,
 .PEGContent-6 h3 {
   margin: 0;
+}
+
+.PEGContent-6 p {
+  font-size: 1rem;
 }
 
 .accordion-button-ambiental {
@@ -235,8 +248,13 @@
   gap: 4rem;
 }
 
-.PEGContent-8 p, .PEGContent-8 h2 {
+.PEGContent-8 p,
+.PEGContent-8 h2 {
   width: 80%;
+}
+
+.PEGContent-8 p {
+  font-size: 1rem;
 }
 
 
@@ -267,7 +285,7 @@
   width: 100%;
 }
 
-.PEGContent-11-form-form{
+.PEGContent-11-form-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -281,9 +299,11 @@
   background-color: #bd791a;
   justify-content: center;
   color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.PEGContent-11-form h2{
+.PEGContent-11-form h2 {
   text-align: left;
   padding-left: 2.5rem;
   font-size: 2rem;
@@ -307,61 +327,70 @@
 }
 
 .PEGContent-11-btn {
-  background-image: url("/images/BOTÃO 3P.png");
-  background-size: cover;
+  background-color: #047060;
+  border: none;
+  color: white;
   width: 10vw;
   text-align: center;
   cursor: pointer;
   padding: 0.2rem;
+  border-radius: 8px;
 }
 
-.PEGContent-11-btn:hover{
-  background-image: url("/images/BOTÃO 3P claro.png");
-
+.PEGContent-11-btn:hover {
+  background-color: #5de280;
 }
 
 @media (max-width: 599px) {
+
   .PEGContent-1 {
     flex-direction: column;
     margin-top: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
+
   .PEGContent-1 p,
   .PEGContent-1 h2 {
     width: 100%;
     text-align: center;
   }
-  .PEGContent-1 h2{
-    font-size: 2rem;
+
+  .PEGContent-1 p {
+    font-size: 1rem;
+  }
+
+  .PEGContent-1 h2 {
+    font-size: 1.5rem;
   }
 
   .PEGContent-2 {
     flex-direction: column;
     gap: 20px;
-    margin:auto;
-    width: 40vw;
+    margin-top: 20px;
+    width: 80vw;
   }
-  .PEGContent-2 p{
-    font-size: 0.8rem;
+
+  .PEGContent-2 p {
+    font-size: 0.9rem;
   }
+
   .PEGContent-2-p {
     width: 100%;
     font-size: 1rem;
     line-height: 20px;
   }
 
-  .PEGContent-3{
+  .PEGContent-3 {
     display: flex;
     flex-direction: column-reverse;
-    margin: 0
-    ;
+    margin: 0;
   }
 
   .PEGContent-3 img {
     height: 400px;
   }
 
-  .PEGContent-3-text{
+  .PEGContent-3-text {
     margin: 0;
     padding: 0;
     text-align: center;
@@ -369,8 +398,12 @@
     align-items: center;
   }
 
-  .PEGContent-3-text h2{
-    font-size: 2rem;
+  .PEGContent-3-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .PEGContent-3-text p {
+    font-size: 1rem;
   }
 
   .PEGContent-5 {
@@ -380,15 +413,19 @@
     gap: 50px;
     margin: 0;
   }
-  
+
   .PEGContent-5-text {
     width: 70%;
-    padding:20px;
+    padding: 20px;
     text-align: center;
   }
 
-  .PEGContent-5-text h2{
-    font-size: 2rem;
+  .PEGContent-5-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .PEGContent-5-text p {
+    font-size: 1rem;
   }
 
   .PEGContent-6 {
@@ -402,6 +439,7 @@
     padding: 10px;
     margin: 0 50px;
   }
+
   .PEGContent-6 p,
   .PEGContent-6 h3 {
     margin: 0;
@@ -420,25 +458,33 @@
     margin: 0;
     text-align: center;
   }
-  
-  .PEGContent-8 p, .PEGContent-8 h2 {
+
+  .PEGContent-8 p,
+  .PEGContent-8 h2 {
     width: 80%;
   }
 
-  .PEGContent-8 h2{
-    font-size: 2rem;
+  .PEGContent-8 h2 {
+    font-size: 1.5rem;
   }
 
-  .PEGContent-9{
+  .PEGContent-9 {
     margin: 50px;
   }
 
-  .PEGContent-9 h2{
-    font-size: 2rem;
+  .PEGContent-9 h2 {
+    font-size: 1.5rem;
   }
 
   .PEGContent-10 {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .PEGContent-10 p,
+  .PEGContent-8 p,
+  .PEGContent-7 p,
+  .PEGContent-6 p {
+    font-size: 0.9rem;
   }
 
   .PEGContent-11-btn {
@@ -453,39 +499,41 @@
     margin-top: 5px;
     margin-bottom: 30px;
   }
+
   .PEGContent-1 p,
   .PEGContent-1 h2 {
     width: 100%;
     text-align: center;
   }
-  .PEGContent-1 h2{
+
+  .PEGContent-1 h2 {
     font-size: 2rem;
   }
 
   .PEGContent-2 {
     flex-direction: column;
     gap: 20px;
-    margin:auto;
+    margin: auto;
     width: 40vw;
   }
+
   .PEGContent-2-p {
     width: 100%;
     height: 150px;
     font-size: 1rem;
   }
 
-  .PEGContent-3{
+  .PEGContent-3 {
     display: flex;
     flex-direction: column-reverse;
-    margin: 0
-    ;
+    margin: 0;
   }
 
   .PEGContent-3 img {
     height: 400px;
   }
 
-  .PEGContent-3-text{
+  .PEGContent-3-text {
     margin: 0;
     padding: 0;
     text-align: center;
@@ -493,7 +541,7 @@
     align-items: center;
   }
 
-  .PEGContent-3-text h2{
+  .PEGContent-3-text h2 {
     font-size: 2rem;
   }
 
@@ -504,14 +552,14 @@
     gap: 50px;
     margin: 0;
   }
-  
+
   .PEGContent-5-text {
     width: 70%;
-    padding:20px;
+    padding: 20px;
     text-align: center;
   }
 
-  .PEGContent-5-text h2{
+  .PEGContent-5-text h2 {
     font-size: 2rem;
   }
 
@@ -526,6 +574,7 @@
     margin: 0 50px;
     width: auto;
   }
+
   .PEGContent-6 p,
   .PEGContent-6 h3 {
     margin: 0;
@@ -544,20 +593,21 @@
     margin: 0;
     text-align: center;
   }
-  
-  .PEGContent-8 p, .PEGContent-8 h2 {
+
+  .PEGContent-8 p,
+  .PEGContent-8 h2 {
     width: 80%;
   }
 
-  .PEGContent-8 h2{
+  .PEGContent-8 h2 {
     font-size: 2rem;
   }
 
-  .PEGContent-9{
+  .PEGContent-9 {
     margin: 50px;
   }
 
-  .PEGContent-9 h2{
+  .PEGContent-9 h2 {
     font-size: 2rem;
   }
 
@@ -577,13 +627,15 @@
     margin-top: 5px;
     margin-bottom: 30px;
   }
+
   .PEGContent-1 p,
   .PEGContent-1 h2 {
     width: 100%;
     text-align: center;
   }
-  .PEGContent-1 h2{
-    font-size: 2rem;
+
+  .PEGContent-1 h2 {
+    font-size: 2.2rem;
   }
 
   .PEGContent-2 {
@@ -592,24 +644,24 @@
     width: 40vw;
     margin: auto;
   }
+
   .PEGContent-2-p {
     width: 100%;
     height: 150px;
     font-size: 1rem;
   }
 
-  .PEGContent-3{
+  .PEGContent-3 {
     display: flex;
     flex-direction: column-reverse;
-    margin: 0
-    ;
+    margin: 0;
   }
 
   .PEGContent-3 img {
     height: 400px;
   }
 
-  .PEGContent-3-text{
+  .PEGContent-3-text {
     margin: 0;
     padding: 0;
     text-align: center;
@@ -617,8 +669,8 @@
     align-items: center;
   }
 
-  .PEGContent-3-text h2{
-    font-size: 2rem;
+  .PEGContent-3-text h2 {
+    font-size: 2.2rem;
   }
 
   .PEGContent-5 {
@@ -628,15 +680,15 @@
     gap: 50px;
     margin: 30px 0 0 0;
   }
-  
+
   .PEGContent-5-text {
     width: 50%;
-    padding:20px;
+    padding: 20px;
     text-align: center;
   }
 
-  .PEGContent-5-text h2{
-    font-size: 2rem;
+  .PEGContent-5-text h2 {
+    font-size: 2.2rem;
   }
 
   .PEGContent-6 {
@@ -650,6 +702,7 @@
     margin: 0 50px;
     width: auto;
   }
+
   .PEGContent-6 p,
   .PEGContent-6 h3 {
     margin: 0;
@@ -668,21 +721,22 @@
     margin: 0;
     text-align: center;
   }
-  
-  .PEGContent-8 p, .PEGContent-8 h2 {
+
+  .PEGContent-8 p,
+  .PEGContent-8 h2 {
     width: 80%;
   }
 
-  .PEGContent-8 h2{
-    font-size: 2rem;
+  .PEGContent-8 h2 {
+    font-size: 2.2rem;
   }
 
-  .PEGContent-9{
+  .PEGContent-9 {
     margin: 50px;
   }
 
-  .PEGContent-9 h2{
-    font-size: 2rem;
+  .PEGContent-9 h2 {
+    font-size: 2.2rem;
   }
 
   .PEGContent-10 {

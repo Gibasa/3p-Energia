@@ -1,6 +1,7 @@
 import "./Contato.css";
 import ContatoForm from "./ContatoForm";
 import ContatoHeader from "./ContatoHeader";
+import { Helmet } from "react-helmet-async";
 import { useEffect } from "react";
 
 function Contato() {
@@ -10,6 +11,10 @@ function Contato() {
 
   return (
     <div>
+      <Helmet>
+        <title>Fale Conosco - 3P Energia</title>
+        <meta name="description" content="Entre em contato com os especialistas da 3P Energia para dúvidas, diagnósticos técnicos e orçamentos comerciais." />
+      </Helmet>
       <ContatoHeader />
       <div className="contato">
         <ContatoForm />

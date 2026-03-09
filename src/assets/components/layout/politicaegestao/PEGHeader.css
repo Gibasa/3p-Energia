@@ -15,8 +15,8 @@
 .PEG-header h2 {
   font-size: 3.5rem;
   text-decoration: underline;
-    text-decoration-color: #bd791a;
-    text-underline-offset: 20px;
+  text-decoration-color: #bd791a;
+  text-underline-offset: 20px;
 }
 
 
@@ -27,10 +27,11 @@
     align-items: center;
     padding: 0;
     margin: 0;
-    margin-top: 10vh;
+    margin-top: 15vh;
     color: #047060;
     width: 100%;
   }
+
   .PEG-header h2 {
     font-size: 2rem;
   }
@@ -43,28 +44,29 @@
 }
 
 @media (min-width: 600px) and (max-width: 899px) {
-    .PEG-header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        margin: 0;
-        margin-top: 18vh;
-        margin-bottom: 10vh;
-        color: #047060;
-        width: 100%;
-      }
-    
-      .PEG-header h2 {
-        font-size: 3.5rem;
-      }
-      .PEG-line {
-        width: 30vw;
-        height: 4px;
-        background-color: #bd791a;
-      }
-      .PEG-header h2 {
-        font-size: 2.5rem;
-      }
-}
+  .PEG-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 18vh;
+    margin-bottom: 10vh;
+    color: #047060;
+    width: 100%;
+  }
 
+  .PEG-header h2 {
+    font-size: 3.5rem;
+  }
+
+  .PEG-line {
+    width: 30vw;
+    height: 4px;
+    background-color: #bd791a;
+  }
+
+  .PEG-header h2 {
+    font-size: 2.5rem;
+  }
+}

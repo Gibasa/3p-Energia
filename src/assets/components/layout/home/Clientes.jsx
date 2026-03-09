@@ -24,18 +24,19 @@ function Clientes() {
     <Carousel.Item key={n}>
       <img
         src={`./images/clientes/${n}.png`}
-        alt={`Imagem ${n}`}
+        alt={`Cliente e Parceiro ${n} da 3P Energia`}
         className="d-block w-100 h-100"
+        loading="lazy"
       />
     </Carousel.Item>
   ));
-  const imagens = numeros.map((n) => (    
-      <img
+  const imagens = numeros.map((n) => (
+    <img
       key={n}
-        src={`./images/clientes/${n}.png`}
-        alt={`Imagem ${n}`}
-        className="d-block w-100"
-      />
+      src={`./images/clientes/${n}.png`}
+      alt={`Cliente e Parceiro ${n} da 3P Energia`}
+      className="d-block w-100"
+    />
   ));
 
   return (

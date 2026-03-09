@@ -3,6 +3,7 @@
   position: relative;
   transition: transform 0.2s ease;
   z-index: 2;
+  border-radius: 8px;
 }
 
 .portfolio-epc-cards-text {
@@ -12,8 +13,10 @@
   justify-content: center;
   align-items: center;
   top: 90%;
-  background-image: url("/images/botao-portfolio.png");
-  background-size: 100% 100%;
+  background-color: white;
+  border: 2px solid #047060;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 90%;
   color: #047060;
   padding: 0.8rem;
@@ -25,17 +28,18 @@
   margin: 0 2vw;
 }
 
-.portfolio-epc-inversores{
+.portfolio-epc-inversores {
   display: flex;
   gap: 5px;
   justify-content: center;
   align-items: center;
 }
-.portfolio-epc-inversores p{
+
+.portfolio-epc-inversores p {
   padding: 0;
   margin: 0;
 }
 
-.inversores{
+.inversores {
   font-weight: 500;
 }
