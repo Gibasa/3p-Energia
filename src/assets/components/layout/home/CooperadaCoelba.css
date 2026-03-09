@@ -17,7 +17,7 @@
 }
 
 .cooperada-header h2 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #047060;
     /* 3P green */
     margin-bottom: 1rem;
@@ -74,7 +74,7 @@
 
 @media (max-width: 599px) {
     .cooperada-header h2 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -84,7 +84,7 @@
     }
 
     .cooperada-header h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
         /* Applies between 600px and 768px */
     }
 }
