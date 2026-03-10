@@ -14,11 +14,10 @@ function Mapa() {
       <div className="text-map">
 
         <div className="destaque-potencia">
-          <span className="numero-destaque">125</span>
-          <span className="unidade-destaque">MWp</span>
+          <img src="./images/125 completo.png" alt="125 MWp" className="destaque-img" />
         </div>
         <p className="texto-destaque">
-          de <strong>potência instalada</strong> e <strong>370</strong> colaboradores com
+          e <strong>370</strong> colaboradores com
           expertise técnica, garantindo excelência na gestão e execução de
           obras em todo o país.
         </p>
@@ -26,7 +25,7 @@ function Mapa() {
           <p>Conheça nosso portfólio</p>
         </div>
       </div>
-      <img src="./images/mapa do brasil.png" alt="Mapa do Brasil" loading="lazy" />
+      <img src="./images/mapa do brasil 2.png" alt="Mapa do Brasil" loading="lazy" className="map-image" />
     </div>
   );
 }
