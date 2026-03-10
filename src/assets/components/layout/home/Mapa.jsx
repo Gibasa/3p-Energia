@@ -17,15 +17,13 @@ function Mapa() {
           <img src="./images/125 completo.png" alt="125 MWp" className="destaque-img" />
         </div>
         <p className="texto-destaque">
-          e <strong>370</strong> colaboradores com
-          expertise técnica, garantindo excelência na gestão e execução de
-          obras em todo o país.
+          de potência instalada, garantindo excelência na gestão e execução de obras em todo o país.
         </p>
         <div className="map-btn" onClick={goTo}>
           <p>Conheça nosso portfólio</p>
         </div>
       </div>
-      <img src="./images/mapa do brasil 2.png" alt="Mapa do Brasil" loading="lazy" className="map-image" />
+      <img src="./images/mapa do brasil.webp" alt="Mapa do Brasil" loading="lazy" className="map-image" />
     </div>
   );
 }

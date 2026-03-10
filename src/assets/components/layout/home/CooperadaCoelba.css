@@ -2,8 +2,7 @@
     background-color: white;
     /* Light grey background to distinguish section */
     padding: 4rem 2rem;
-    font-family: Arial, sans-serif;
-    color: #333;
+    color: #616160;
 }
 
 .cooperada-content {
@@ -49,20 +48,22 @@
 
 .cooperada-block {
     flex: 1;
-    background-color: white;
+    background-color: #047060;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100px;
-    color: #616160;
+    color: white;
+}
 
-
-    /* Theme color top border */
+.cooperada-block p {
+    color: white !important;
+    margin: 0;
 }
 
 .cooperada-footer {
