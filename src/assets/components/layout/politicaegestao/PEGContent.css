@@ -49,6 +49,8 @@
 .PEGContent-11 p,
 .PEGContent-12 p {
   font-size: 1.2rem;
+  color: #616160;
+  font-weight: 400;
 }
 
 .PEGContent-1 {
@@ -89,6 +91,7 @@
   font-weight: 600;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
 }
 
 .PEGContent-2 p {
@@ -97,6 +100,8 @@
   padding: 1rem;
   margin: 0;
   font-size: 1rem;
+  color: white !important;
+  font-weight: 600;
 }
 
 .PEGContent-3 {
@@ -139,7 +144,8 @@
 }
 
 .PEGContent-3-accordion li {
-  color: #047060;
+  color: #616160;
+  font-weight: 400;
 }
 
 .PEGContent-3-accordion .accordion-button {
@@ -196,6 +202,7 @@
 
 .PEGContent-6 p {
   font-size: 1rem;
+  color: #616160;
 }
 
 .accordion-button-ambiental {
@@ -236,7 +243,7 @@
 
 .PEGContent-7 p {
   grid-column: 1 / span 1;
-  color: #047060;
+  color: #616160;
   font-size: 1rem;
   margin-top: 20px;
 }
@@ -255,6 +262,7 @@
 
 .PEGContent-8 p {
   font-size: 1rem;
+  color: #616160;
 }
 
 
@@ -275,7 +283,7 @@
 }
 
 .PEGContent-10 p {
-  color: #047060;
+  color: #616160;
   margin-top: 20px;
   font-size: 1rem;
 }

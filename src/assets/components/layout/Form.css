@@ -34,6 +34,7 @@
 
 .form-group input[type="text"],
 .form-group input[type="email"] {
+  font-family: "Montserrat", sans-serif;
   width: 33vw;
   border: none;
   border-radius: 8px;
@@ -44,9 +45,13 @@
 
 .form-group label {
   padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  /* Montserrat Medium */
 }
 
 .form-group textarea {
+  font-family: "Montserrat", sans-serif;
   width: 68.7vw;
   border: none;
   border-radius: 8px;

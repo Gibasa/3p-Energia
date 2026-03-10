@@ -23,7 +23,7 @@ function ServicosCards() {
     },
     {
       titulo: "BESS (Armazenamento de Energia)",
-      imagem: "./images/servicos/ROOFTOP.jpeg", // Placeholder - talvez substituir por uma mais genérica se houver
+      imagem: "./images/servicos/BESS.webp", // Placeholder - talvez substituir por uma mais genérica se houver
       texto: (
         <ul>
           <li>

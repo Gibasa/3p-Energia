@@ -11,18 +11,42 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lato", sans-serif;
-  font-weight: medium;
-}
-
-@font-face {
-  font-family: "Segoe UI", sans-serif;
-  src: url("/fonts/Segoe UI.woff") format("woff");
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 
 p,
 li,
+span,
 a {
-  font-family: "Segoe UI", sans-serif;
-  font-weight: medium;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #616160;
+}
+
+/* Ensure buttons and their inner elements use white text */
+button,
+.map-btn,
+.video-btn,
+.form-btn,
+.footer-btns-item,
+.home-btn,
+.portfolio-btn {
+  font-family: "Montserrat", sans-serif !important;
+  color: white !important;
+}
+
+button *,
+.map-btn *,
+.video-btn *,
+.form-btn *,
+.footer-btns-item *,
+.home-btn *,
+.portfolio-btn * {
+  color: white !important;
+}
+
+strong,
+b {
+  font-weight: 500;
 }

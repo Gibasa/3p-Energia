@@ -4,7 +4,7 @@
     align-items: center;
     gap: 80px;
     padding: 4.25vw 0;
-    background-color: #ffffff;
+    background-color: #f0f0f0;
     width: 100%;
 }
 
@@ -25,8 +25,8 @@
 }
 
 .text p {
-    font-weight: 500;
-    color: #047060;
+    font-weight: 400;
+    color: #616160;
     font-size: 1.2rem;
 }
 

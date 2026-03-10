@@ -36,12 +36,24 @@ function Video() {
     <div className="video-section">
       <div className="video-header">
         <h2>EPC</h2>
-        <p>Usina Solar PE II</p>
       </div>
 
       <div className="video-container">
-        <div className="video-box">{iframeOld}</div>
-        <div className="video-box">{iframeNew}</div>
+        <div className="video-box">
+          <div className="video-info">
+            <h3>UFV PE II</h3>
+            <p>EPC BOS</p>
+            <p>3.400 kWp de Potência Instalada</p>
+          </div>
+          {iframeOld}
+        </div>
+        <div className="video-box">
+          <div className="video-info">
+            <h3>SISTEMA BESS CT</h3>
+            <p>215 kWh de Capacidade de Armazenamento</p>
+          </div>
+          {iframeNew}
+        </div>
       </div>
 
       <div className="video-btn-container">

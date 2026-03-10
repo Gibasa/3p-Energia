@@ -28,8 +28,8 @@ function Home() {
             <Servicos />
             <CooperadaCoelba />
             {/* <Linha /> */}
-            <Clientes />
             <Video />
+            <Clientes />
             {/* <CarouselComponent/> */}
         </div>
     )

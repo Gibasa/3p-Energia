@@ -10,12 +10,14 @@
   gap: 5px;
   padding-top: 10px;
   color: #047060;
+  font-weight: 500;
 }
 
 .contato-form-item input[type="text"],
 .contato-form-item input[type="email"],
 .contato-form-item input[type="tel"],
 .contato-form-item select {
+  font-family: "Montserrat", sans-serif;
   border: 1px solid #047060;
   padding: 5px;
   border-radius: 8px;
@@ -35,6 +37,7 @@
 }
 
 .contato-form-item textarea {
+  font-family: "Montserrat", sans-serif;
   border: 1px solid #047060;
   padding: 5px;
   border-radius: 8px;

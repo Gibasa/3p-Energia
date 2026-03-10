@@ -1,4 +1,4 @@
-.contato{
+.contato {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,62 +6,68 @@
     margin: 0;
 }
 
-.contato-text{
+.contato-text {
     width: 50%;
     padding-top: 20vh;
 }
 
-.contato-text h3, .contato-text p{
+.contato-text h3 {
     color: #047060;
 }
 
-.contato-text p{
+.contato-text p {
+    color: #616160;
+    font-weight: 400;
+}
+
+.contato-text p {
     width: 50%;
 }
+
 @media (max-width: 599px) {
-    .contato{
+    .contato {
         flex-direction: column;
         gap: 5vw;
         margin: 0;
     }
-    
-    .contato-text{
+
+    .contato-text {
         width: 80%;
         padding-top: 0;
     }
 }
 
 @media (min-width: 600px) and (max-width: 899px) {
-    .contato{
+    .contato {
         flex-direction: column;
         gap: 5vw;
         margin: 0;
     }
-    
-    .contato-text{
+
+    .contato-text {
         width: 80%;
     }
 }
 
 @media (min-width: 900px) and (max-width: 1199px) {
-    .contato{
+    .contato {
         flex-direction: column;
         gap: 5vw;
         margin: 0;
     }
-    
-    .contato-text{
+
+    .contato-text {
         width: 80%;
     }
 }
 
 @media (min-width: 1200px) {
-    .contato{
+    .contato {
         gap: 5vw;
-        margin:0 10vw 10vh 10vw;
+        margin: 0 10vw 10vh 10vw;
     }
-    
-    .contato-text{
+
+    .contato-text {
         width: 80%;
     }
 }

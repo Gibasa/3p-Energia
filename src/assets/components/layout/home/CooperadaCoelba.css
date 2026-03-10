@@ -1,5 +1,5 @@
 .cooperada-coelba {
-    background-color: #f0f0f0;
+    background-color: white;
     /* Light grey background to distinguish section */
     padding: 4rem 2rem;
     font-family: Arial, sans-serif;
@@ -27,16 +27,16 @@
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 1rem;
-    color: #047060;
+    color: #616160;
 }
 
 .cooperada-text {
     font-size: 1rem;
     line-height: 1.6;
     max-width: 800px;
-    font-weight: 500;
+    font-weight: 400;
     margin: 0 auto;
-    color: #047060;
+    color: #616160;
 
 }
 
@@ -54,12 +54,12 @@
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100px;
-    color: #047060;
+    color: #616160;
 
 
     /* Theme color top border */
@@ -68,8 +68,8 @@
 .cooperada-footer {
     text-align: center;
     font-size: 1rem;
-    font-weight: 500;
-    color: #047060;
+    font-weight: 400;
+    color: #616160;
 }
 
 @media (max-width: 599px) {

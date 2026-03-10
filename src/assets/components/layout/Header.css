@@ -27,6 +27,7 @@
 
 .header-link {
   color: white;
+  font-weight: 500;
   font-size: clamp(0.8rem, 2.5vw, 1.1rem);
   text-align: center;
   align-items: center;
@@ -41,7 +42,7 @@
   color: #5de280;
 }
 
-.navbar-nav .header-link.active{
+.navbar-nav .header-link.active {
   color: #5de280;
 }
 

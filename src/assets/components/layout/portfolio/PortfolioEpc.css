@@ -18,7 +18,6 @@
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 90%;
-  color: #047060;
   padding: 0.8rem;
   z-index: 3;
 }
@@ -26,6 +25,8 @@
 .portfolio-epc-cards-text h3 {
   font-size: 1.2rem;
   margin: 0 2vw;
+  color: #047060;
+  font-weight: 600;
 }
 
 .portfolio-epc-inversores {
@@ -38,8 +39,11 @@
 .portfolio-epc-inversores p {
   padding: 0;
   margin: 0;
+  color: #616160;
+  font-weight: 400;
 }
 
 .inversores {
   font-weight: 500;
+  color: #616160;
 }

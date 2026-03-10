@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import "./Mapa.css";
 
+import "./Mapa.css";
 
 function Mapa() {
   const navigate = useNavigate();
@@ -9,23 +9,24 @@ function Mapa() {
     navigate("/portfolio");
   };
 
-
   return (
     <div className="map-text" id="atuacao">
-      <img src="./images/mapa do brasil.png" alt="" loading="lazy" />
       <div className="text-map">
-        <p className="map-title">ATUAMOS EM TODO O BRASIL</p>
-        <h2>Instalações Realizadas:</h2>
-        <div className="map-btn" onClick={goTo}> <p>Conheça nosso portfólio</p></div>
-        <div className="map-list">
-          <div className="map-list-item">
-            <p className="map-list-title">14</p> <p className="map-list-text">Estados</p>
-          </div>
-          <div className="map-list-item">
-            <p className="map-list-title">125MWp</p> <p className="map-list-text">Instalados</p>
-          </div>
+
+        <div className="destaque-potencia">
+          <span className="numero-destaque">125</span>
+          <span className="unidade-destaque">MWp</span>
+        </div>
+        <p className="texto-destaque">
+          de <strong>potência instalada</strong> e <strong>370</strong> colaboradores com
+          expertise técnica, garantindo excelência na gestão e execução de
+          obras em todo o país.
+        </p>
+        <div className="map-btn" onClick={goTo}>
+          <p>Conheça nosso portfólio</p>
         </div>
       </div>
+      <img src="./images/mapa do brasil.png" alt="Mapa do Brasil" loading="lazy" />
     </div>
   );
 }
