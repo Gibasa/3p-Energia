@@ -25,7 +25,7 @@ function Clientes() {
       <img
         src={`./images/clientes/${n}.png`}
         alt={`Cliente e Parceiro ${n} da 3P Energia`}
-        className="d-block w-100 h-100"
+        className="d-block"
         loading="lazy"
       />
     </Carousel.Item>
