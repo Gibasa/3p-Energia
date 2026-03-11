@@ -46,11 +46,11 @@ function Form() {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">E-mail</label>
             <input
               type="email"
               id="email"
-              placeholder="Digite seu email"
+              placeholder="Digite seu e-mail"
               name="email"
             />
           </div>
