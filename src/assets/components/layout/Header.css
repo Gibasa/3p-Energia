@@ -15,7 +15,7 @@
 }
 
 .header-container {
-  gap: 30vw;
+  gap: 28vw;
   margin: 0;
   padding: 0;
   top: 0;
@@ -53,12 +53,12 @@
 
 .header-logo img {
   content: url("/images/3p logo branco e laranja.png");
-  max-height: 10%;
+  max-height: 100px;
 }
 
 .header-bg.scrolled .header-logo img {
   content: url("/images/REDESIGN 3P ENERGIA COLORIDO.png");
-  max-height: 10%;
+  max-height: 100px;
 }
 
 
@@ -66,5 +66,8 @@
 @media (max-width: 991px) {
   .header-container {
     gap: 0vw;
+  }
+  .header-logo img {
+    max-height: 50px;
   }
 }

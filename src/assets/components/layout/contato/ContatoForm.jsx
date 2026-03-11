@@ -19,13 +19,11 @@ function ContatoForm() {
       )
       .then(
         (result) => {
-          console.log(result.text);
           setIsSent(true);
           setIsSending(false);
           setTimeout(() => setIsSent(false), 5000);
         },
         (error) => {
-          console.log(error.text);
           setIsSending(false);
           alert("Ocorreu um erro ao enviar a mensagem. Tente novamente mais tarde.");
         }

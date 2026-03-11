@@ -12,7 +12,6 @@ function Footer() {
   const yearnow = () => {
     const date = new Date();
     const currentYear = date.getFullYear();
-    console.log(currentYear);
     return currentYear;
   };
   const navigate = useNavigate();

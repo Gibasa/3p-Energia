@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://3penergia.com.br/sitemap.xml
+Sitemap: https://www.3penergia.com.br/sitemap.xml
