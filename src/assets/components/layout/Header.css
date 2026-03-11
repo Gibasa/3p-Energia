@@ -15,7 +15,7 @@
 }
 
 .header-container {
-  gap: 28vw;
+  gap: 18vw;
   margin: 0;
   padding: 0;
   top: 0;
@@ -67,7 +67,9 @@
   .header-container {
     gap: 0vw;
   }
-  .header-logo img {
+
+  .header-logo img,
+  .header-bg.scrolled .header-logo img {
     max-height: 50px;
   }
 }
